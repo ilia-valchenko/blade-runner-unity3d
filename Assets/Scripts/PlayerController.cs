@@ -48,6 +48,11 @@ public class PlayerController : MonoBehaviour
                 this.playerRigidbody.transform.position.z - this.leftRightModifier);
             }
         }
+
+        //if (Input.GetKey(KeyCode.D))
+        //{
+        //    this.playerRigidbody.transform.rotation = new Quaternion(0, 90, 0);
+        //}
     }
 
     //void FixedUpdate()

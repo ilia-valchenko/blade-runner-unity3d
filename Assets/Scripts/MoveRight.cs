@@ -14,5 +14,6 @@ public class MoveRight : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * this.speed);
+        //transform.Rotate(0, 90, 0);
     }
 }
