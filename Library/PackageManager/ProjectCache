@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637965899081307016
-    m_Hash: 3841823420
+      ticks: 637970212397890405
+    m_Hash: 210130073
   m_LockFileStatus:
     m_FilePath: C:/git-repositories/blade-runner-unity3d/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637965899504518122
-    m_Hash: 3065126310
+      ticks: 637970212397913193
+    m_Hash: 2750229563
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
