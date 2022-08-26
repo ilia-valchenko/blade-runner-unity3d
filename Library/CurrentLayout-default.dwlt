@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 48
+  controlID: 52
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 49
+  controlID: 53
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 50
+  controlID: 54
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -314,9 +314,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 29.87625, y: 27.888153, z: -47.53312}
+    m_Target: {x: -8.48589, y: 3.9256682, z: -14.973837}
     speed: 2
-    m_Value: {x: 29.87625, y: 27.888153, z: -47.53312}
+    m_Value: {x: -8.48589, y: 3.9256682, z: -14.973837}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -363,9 +363,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.109024815, y: 0.06732471, z: -0.007530103, w: 0.99177533}
+    m_Target: {x: 0.10332126, y: 0.009202283, z: -0.0006962269, w: 0.9947005}
     speed: 2
-    m_Value: {x: 0.1090197, y: 0.067321554, z: -0.0075297495, w: 0.9917288}
+    m_Value: {x: 0.10331147, y: 0.009201411, z: -0.00069616095, w: 0.99460626}
   m_Size:
     m_Target: 2.3790262
     speed: 2
@@ -421,10 +421,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 2c200200
-      m_LastClickedID: 139308
-      m_ExpandedIDs: e887ffff6efbffff8e3d00001c3f00005a4300008c1c02002620020044320200
+      scrollPos: {x: 0, y: 78.79999}
+      m_SelectedIDs: 24afffff
+      m_LastClickedID: -20700
+      m_ExpandedIDs: 9edfffff6efbffff383f0000784300008a430000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -575,22 +575,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/PolygonSciFiCity/Prefabs/FX
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/PolygonSciFiCity/Prefabs/FX
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\git-repositories\blade-runner-unity3d
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 300}
-    m_SelectedIDs: 32530000
-    m_LastClickedID: 21298
-    m_ExpandedIDs: 00000000c0520000c2520000c4520000c6520000c8520000ca520000cc5200000653000000ca9a3b
+    scrollPos: {x: 0, y: 293.40002}
+    m_SelectedIDs: 22560100
+    m_LastClickedID: 87586
+    m_ExpandedIDs: 000000003a5300003c5300003e53000040530000425300004453000046530000485300008653000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -618,7 +618,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c0520000c2520000c4520000c6520000c8520000ca520000cc520000ce520000
+    m_ExpandedIDs: 000000003a5300003c5300003e5300004053000042530000445300004653000048530000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -670,7 +670,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 3.4000244}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 272

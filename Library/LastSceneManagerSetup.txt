@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/MoveMotionPack/SampleScene/Scene/TestScene.unity
+- path: Assets/Scenes/Prototype 3.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

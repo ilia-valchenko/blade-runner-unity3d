@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private const double LeftBorder = -0.5;
+    private const double LeftBorder = -0.6;
     private const double RightBorder = -7;
 
     private Rigidbody playerRigidbody;
