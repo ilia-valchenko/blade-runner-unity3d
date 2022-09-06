@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         this.playerRigidbody = GetComponent<Rigidbody>();
+        this.playerRigidbody.freezeRotation = true;
         Physics.gravity *= GravityModifier;
     }
 
