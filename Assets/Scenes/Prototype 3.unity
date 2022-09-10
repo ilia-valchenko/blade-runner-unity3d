@@ -2465,7 +2465,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4323476201311776, guid: c9751ce6917e9a34fa65260bace8c38a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1
+      value: 0.14
       objectReference: {fileID: 0}
     - target: {fileID: 4323476201311776, guid: c9751ce6917e9a34fa65260bace8c38a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2510,7 +2510,7 @@ PrefabInstance:
     - target: {fileID: 95020386144158004, guid: c9751ce6917e9a34fa65260bace8c38a, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 9bec5b3be428ae64eb9cb201db4ea01b, type: 2}
+      objectReference: {fileID: 9100000, guid: a574c353a985bd745b3fd506d2257c63, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9751ce6917e9a34fa65260bace8c38a, type: 3}
 --- !u!1 &155428551 stripped
@@ -2559,6 +2559,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5557f6a786e45164e9267423644c7316, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  JumpForceValue: 6
+  isOnGround: 1
+  wasCollisionResolved: 1
+  speed: 0
 --- !u!1001 &156837703
 PrefabInstance:
   m_ObjectHideFlags: 0

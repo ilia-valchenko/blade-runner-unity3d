@@ -5,14 +5,16 @@ public class PlayerController : MonoBehaviour
     private const double LeftBorder = -0.6;
     private const double RightBorder = -7;
     private const float LevelRightBorder = (float)134;
-    private const float JumpForceValue = 6;
+    private const float JumpForceValue = (float)6;
     private const float GravityModifier = 1;
     private const float LeftRightModifier = (float)0.025;
     private const float InitialPlayerSpeed = (float)2.6;
+    private const float FloorPositionY = (float)0.25;
 
     private Rigidbody playerRigidbody;
     private Animator playerAnimator;
     private bool isOnGround = true;
+    private bool wasCollisionResolved = true;
     private Vector3 playerStartPosition;
     private float speed;
 
@@ -40,6 +42,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && this.isOnGround)
         {
             this.speed = InitialPlayerSpeed;
+            this.playerAnimator.Play("Running_Jump");
             this.playerRigidbody.AddForce(Vector3.up * JumpForceValue, ForceMode.Impulse);
             this.isOnGround = false;
         }
@@ -47,7 +50,6 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.W)) // Input.GetKeyDown(KeyCode.W)
         {
             this.playerAnimator.Play("male_move_run_jogging_strafing_front_left");
-            this.speed = InitialPlayerSpeed;
 
             if (this.playerRigidbody.transform.position.z < LeftBorder)
             {
@@ -61,7 +63,6 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.S)) // Input.GetKeyDown(KeyCode.S)
         {
             this.playerAnimator.Play("male_move_run_jogging_strafing_front_right");
-            this.speed = InitialPlayerSpeed;
 
             if (this.playerRigidbody.transform.position.z > RightBorder)
             {
@@ -71,10 +72,21 @@ public class PlayerController : MonoBehaviour
                 this.playerRigidbody.transform.position.z - LeftRightModifier);
             }
         }
-        
-        if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.Space))
+
+        this.isOnGround = this.playerRigidbody.transform.position.y <= FloorPositionY;
+
+        if (this.isOnGround && !Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.Space))
         {
-            this.playerAnimator.Play("male_move_run_jogging_strafing_front");
+            if (this.wasCollisionResolved)
+            {
+                this.speed = InitialPlayerSpeed;
+                this.playerAnimator.Play("male_move_run_jogging_strafing_front");
+            }
+            else
+            {
+                this.speed = 0;
+                this.playerAnimator.Play("BasicMotions@Idle01");
+            }
         }
     }
 
@@ -104,24 +116,20 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        //if (collision.gameObject.CompareTag("sidewalk"))
-        //{
-        //    this.isOnGround = true;
-        //}
-
         if (collision.gameObject.CompareTag("obstacle"))
         {
-            //this.playerAnimator.enabled = false;
-            this.playerAnimator.Play("BasicMotions@Idle01");
             this.speed = 0;
-        }
-        else {
-            this.isOnGround = true;
+            this.wasCollisionResolved = false;
+            this.playerAnimator.Play("BasicMotions@Idle01");
         }
     }
 
-    //private void OnCollisionExit(Collision collision)
-    //{
-        
-    //}
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("obstacle"))
+        {
+            this.speed = InitialPlayerSpeed;
+            this.wasCollisionResolved = true;
+        }
+    }
 }
