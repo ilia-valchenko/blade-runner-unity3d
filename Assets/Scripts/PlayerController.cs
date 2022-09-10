@@ -4,25 +4,37 @@ public class PlayerController : MonoBehaviour
 {
     private const double LeftBorder = -0.6;
     private const double RightBorder = -7;
+    private const float LevelRightBorder = (float)134;
 
     private Rigidbody playerRigidbody;
     private bool isOnGround = true;
+    private Vector3 playerStartPosition;
 
+    // TODO: Mark them as const.
+    public float Speed = (float)2.6;
     public float JumpForceValue = 6;
-    public float GravityModifier = 0;
-    public float leftRightModifier = 1;
+    public float GravityModifier = 1;
+    public float leftRightModifier = (float)0.025;
 
     // Start is called before the first frame update
     void Start()
     {
         this.playerRigidbody = GetComponent<Rigidbody>();
         this.playerRigidbody.freezeRotation = true;
+        this.playerStartPosition = transform.position;
         Physics.gravity *= GravityModifier;
     }
 
     // Update is called once per frame
     void Update()
     {
+        transform.Translate(Vector3.forward * Time.deltaTime * this.Speed);
+
+        if (transform.position.x > LevelRightBorder)
+        {
+            transform.position = this.playerStartPosition;
+        }
+
         if (Input.GetKeyDown(KeyCode.Space) && this.isOnGround)
         {
             this.playerRigidbody.AddForce(Vector3.up * JumpForceValue, ForceMode.Impulse);
@@ -49,11 +61,6 @@ public class PlayerController : MonoBehaviour
                 this.playerRigidbody.transform.position.z - this.leftRightModifier);
             }
         }
-
-        //if (Input.GetKey(KeyCode.D))
-        //{
-        //    this.playerRigidbody.transform.rotation = new Quaternion(0, 90, 0);
-        //}
     }
 
     //void FixedUpdate()

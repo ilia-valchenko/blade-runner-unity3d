@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MoveRight : MonoBehaviour
 {
-    public float speed = 3;
+    public float speed = (float)2.6;
 
     // Start is called before the first frame update
     void Start()
@@ -14,6 +14,5 @@ public class MoveRight : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * this.speed);
-        //transform.Rotate(0, 90, 0);
     }
 }
