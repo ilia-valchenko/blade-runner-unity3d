@@ -2504,6 +2504,10 @@ PrefabInstance:
       value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 95020386144158004, guid: c9751ce6917e9a34fa65260bace8c38a, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: f13349cc09b03d447a26b54d406aaa8e, type: 3}
+    - target: {fileID: 95020386144158004, guid: c9751ce6917e9a34fa65260bace8c38a, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 9bec5b3be428ae64eb9cb201db4ea01b, type: 2}
@@ -2555,10 +2559,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5557f6a786e45164e9267423644c7316, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 2.6
-  JumpForceValue: 6
-  GravityModifier: 1
-  leftRightModifier: 0.025
 --- !u!1001 &156837703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3701,7 +3701,7 @@ GameObject:
   - component: {fileID: 231028076}
   m_Layer: 0
   m_Name: Sidewalk
-  m_TagString: Untagged
+  m_TagString: sidewalk
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
