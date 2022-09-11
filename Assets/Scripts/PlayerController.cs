@@ -14,9 +14,10 @@ public class PlayerController : MonoBehaviour
     private Rigidbody playerRigidbody;
     private Animator playerAnimator;
     private bool isOnGround = true;
-    private bool wasCollisionResolved = true;
     private Vector3 playerStartPosition;
     private float speed;
+
+    public bool wasCollisionResolved = true;
 
     // Start is called before the first frame update
     void Start()

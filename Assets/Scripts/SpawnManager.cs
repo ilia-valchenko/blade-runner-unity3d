@@ -6,6 +6,7 @@ public class SpawnManager : MonoBehaviour
     private const float RepeatRate = 5;
 
     private Vector3 spawnPositionOffset = new Vector3(10, 0, (float)-1.5);
+    private PlayerController playerController;
 
     public GameObject obstaclePrefab;
     public GameObject player;
@@ -14,6 +15,7 @@ public class SpawnManager : MonoBehaviour
     void Start()
     {
         InvokeRepeating("SpawnObstacle", StartDelay, RepeatRate);
+        this.playerController = player.GetComponent<PlayerController>();
     }
 
     // Update is called once per frame
@@ -23,6 +25,11 @@ public class SpawnManager : MonoBehaviour
 
     void SpawnObstacle()
     {
+        if (!this.playerController.wasCollisionResolved)
+        {
+            return;
+        }
+
         var spawnPosition = new Vector3(
             this.player.transform.position.x + spawnPositionOffset.x,
             spawnPositionOffset.y,
