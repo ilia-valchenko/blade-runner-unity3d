@@ -9,6 +9,11 @@ TagManager:
   - obstacleHydrant
   - obstacleTrashbin
   - obstacleBoxes
+  - sidewalk
+  - obstacleRubbishBin
+  - obstacleNewspaper
+  - obstacleRoadCone
+  - obstacleRoadCone2
   layers:
   - Default
   - TransparentFX

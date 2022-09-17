@@ -8,7 +8,8 @@ public class PlayerController : MonoBehaviour
     private const float JumpForceValue = (float)6;
     private const float GravityModifier = 1;
     private const float LeftRightModifier = (float)0.025;
-    private const float InitialPlayerSpeed = (float)2.6;
+    private const float InitialPlayerSpeed = (float)2.45;
+    private const float SlowPlayerSpeed = (float)1.9;
     private const float FloorPositionY = (float)0.25;
 
     private Rigidbody playerRigidbody;
@@ -50,6 +51,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W)) // Input.GetKeyDown(KeyCode.W)
         {
+            this.speed = SlowPlayerSpeed;
             this.playerAnimator.Play("male_move_run_jogging_strafing_front_left");
 
             if (this.playerRigidbody.transform.position.z < LeftBorder)
@@ -63,6 +65,7 @@ public class PlayerController : MonoBehaviour
         
         if (Input.GetKey(KeyCode.S)) // Input.GetKeyDown(KeyCode.S)
         {
+            this.speed = SlowPlayerSpeed;
             this.playerAnimator.Play("male_move_run_jogging_strafing_front_right");
 
             if (this.playerRigidbody.transform.position.z > RightBorder)
