@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8479916223712568693}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.02, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8479916222958176129}
@@ -45,11 +45,11 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8479916223712568693}
   serializedVersion: 2
-  m_Mass: 1000
+  m_Mass: 10000
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -95,19 +95,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4059512564850130, guid: 8c52c17108ac4d14b93017d91e804006, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -43.48
+      value: 0.54002964
       objectReference: {fileID: 0}
     - target: {fileID: 4059512564850130, guid: 8c52c17108ac4d14b93017d91e804006, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.552
+      value: 0.449
       objectReference: {fileID: 0}
     - target: {fileID: 4059512564850130, guid: 8c52c17108ac4d14b93017d91e804006, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.53
+      value: -0.3172508
       objectReference: {fileID: 0}
     - target: {fileID: 4059512564850130, guid: 8c52c17108ac4d14b93017d91e804006, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9970191
       objectReference: {fileID: 0}
     - target: {fileID: 4059512564850130, guid: 8c52c17108ac4d14b93017d91e804006, type: 3}
       propertyPath: m_LocalRotation.x
@@ -115,7 +115,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4059512564850130, guid: 8c52c17108ac4d14b93017d91e804006, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.077154934
       objectReference: {fileID: 0}
     - target: {fileID: 4059512564850130, guid: 8c52c17108ac4d14b93017d91e804006, type: 3}
       propertyPath: m_LocalRotation.z
@@ -127,7 +127,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4059512564850130, guid: 8c52c17108ac4d14b93017d91e804006, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -8.85
       objectReference: {fileID: 0}
     - target: {fileID: 4059512564850130, guid: 8c52c17108ac4d14b93017d91e804006, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -153,11 +153,11 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8478733009965960383}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -191,15 +191,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 438984, guid: e4e5d2f7f155681449aca26cbdb2b635, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -43.48
+      value: 0.502
       objectReference: {fileID: 0}
     - target: {fileID: 438984, guid: e4e5d2f7f155681449aca26cbdb2b635, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.10000038
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 438984, guid: e4e5d2f7f155681449aca26cbdb2b635, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.046
+      value: -0.721
       objectReference: {fileID: 0}
     - target: {fileID: 438984, guid: e4e5d2f7f155681449aca26cbdb2b635, type: 3}
       propertyPath: m_LocalRotation.w
@@ -249,11 +249,11 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8479916222458098476}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -287,15 +287,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 438984, guid: e4e5d2f7f155681449aca26cbdb2b635, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -43.042
+      value: 0.838
       objectReference: {fileID: 0}
     - target: {fileID: 438984, guid: e4e5d2f7f155681449aca26cbdb2b635, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.10000038
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 438984, guid: e4e5d2f7f155681449aca26cbdb2b635, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.78
+      value: -0.037
       objectReference: {fileID: 0}
     - target: {fileID: 438984, guid: e4e5d2f7f155681449aca26cbdb2b635, type: 3}
       propertyPath: m_LocalRotation.w
@@ -345,11 +345,11 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8479916222957915821}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -383,15 +383,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 438984, guid: e4e5d2f7f155681449aca26cbdb2b635, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -43.785
+      value: 0.125
       objectReference: {fileID: 0}
     - target: {fileID: 438984, guid: e4e5d2f7f155681449aca26cbdb2b635, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.10000038
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 438984, guid: e4e5d2f7f155681449aca26cbdb2b635, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.72
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 438984, guid: e4e5d2f7f155681449aca26cbdb2b635, type: 3}
       propertyPath: m_LocalRotation.w
@@ -441,11 +441,11 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8479916223452992694}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
