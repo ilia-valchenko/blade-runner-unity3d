@@ -117,7 +117,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("obstacle"))
+        if (collision.gameObject.tag.StartsWith("obstacle"))
         {
             this.speed = 0;
             this.wasCollisionResolved = false;

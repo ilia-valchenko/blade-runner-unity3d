@@ -8,7 +8,8 @@ public class SpawnManager : MonoBehaviour
     private Vector3 spawnPositionOffset = new Vector3(10, 0, (float)-1.5);
     private PlayerController playerController;
 
-    public GameObject obstaclePrefab;
+    //public List<GameObject> obstacles;
+    public GameObject[] obstacles;
     public GameObject player;
 
     // Start is called before the first frame update
@@ -36,6 +37,14 @@ public class SpawnManager : MonoBehaviour
             spawnPositionOffset.z);
 
         // Creates a clone or copy of our obstacle prefab.
-        Instantiate(this.obstaclePrefab, spawnPosition, this.obstaclePrefab.transform.rotation);
+        var randomObstacle = GetRandomObstacle();
+        Instantiate(randomObstacle, spawnPosition, randomObstacle.transform.rotation);
+    }
+
+    private GameObject GetRandomObstacle()
+    {
+        var random = new System.Random();
+        var randomIndex = random.Next(0, this.obstacles.Length);
+        return this.obstacles[randomIndex];
     }
 }
