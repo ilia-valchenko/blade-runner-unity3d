@@ -15,11 +15,11 @@ C:/git-repositories/blade-runner-unity3d
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61405
+52743
 Successfully changed project path to: C:/git-repositories/blade-runner-unity3d
 C:/git-repositories/blade-runner-unity3d
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 105.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 105.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/UnityFolder/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -35,93 +35,93 @@ Initialize mono
 Mono path[0] = 'C:/UnityFolder/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/UnityFolder/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/UnityFolder/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/UnityFolder/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/UnityFolder/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002739 seconds.
+Registered in 0.004751 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 80.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 135.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.802 seconds
+- Completed reload, in  1.089 seconds
 Domain Reload Profiling:
-	ReloadAssembly (802ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (1089ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (635ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (833ms)
+			LoadAssemblies (106ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (209ms)
+			SetupTypeCache (258ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (257ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (372ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (81ms)
-				BeforeProcessingInitializeOnLoad (19ms)
-				ProcessInitializeOnLoadAttributes (115ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (27ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004463 seconds.
+Registered in 0.003972 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\git-repositories\blade-runner-unity3d\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.204 seconds
+- Completed reload, in  1.818 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1205ms)
-		BeginReloadAssembly (181ms)
+	ReloadAssembly (1819ms)
+		BeginReloadAssembly (256ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (943ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1469ms)
+			LoadAssemblies (143ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (433ms)
+			SetupTypeCache (476ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (559ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (279ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (365ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.2 MB.
-System memory in use after: 76.3 MB.
+Unloading 1525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.8 MB.
+System memory in use after: 76.9 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1969.
-Total: 2.721900 ms (FindLiveObjects: 0.133800 ms CreateObjectMapping: 0.043500 ms MarkObjects: 2.460000 ms  DeleteObjects: 0.083900 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1970.
+Total: 4.173600 ms (FindLiveObjects: 0.140400 ms CreateObjectMapping: 0.057400 ms MarkObjects: 3.880000 ms  DeleteObjects: 0.094900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,241 +135,1627 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeSquare_Base_01.prefab
-  artifactKey: Guid(e2b1e7ce58c743c4d8d59a66eec6422b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeSquare_Base_01.prefab using Guid(e2b1e7ce58c743c4d8d59a66eec6422b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd1d48a6eec79339d4d800c545555b2') in 0.166837 seconds 
+  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_House_03.prefab
+  artifactKey: Guid(17a15b619ec1ddc4696479f73759de7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_House_03.prefab using Guid(17a15b619ec1ddc4696479f73759de7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ea8de89f54da798ba528778c74bebf') in 0.163526 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000461 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeSquare_02.prefab
-  artifactKey: Guid(5bad3bfa14ca03549852bc34961b1515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeSquare_02.prefab using Guid(5bad3bfa14ca03549852bc34961b1515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1de69a3c30f527fd75a79f4323f0804') in 0.037625 seconds 
+  Time since last request: 0.000413 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Warehouse_01.prefab
+  artifactKey: Guid(f4bb022ab0d2a5c46b6af300deb95be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Warehouse_01.prefab using Guid(f4bb022ab0d2a5c46b6af300deb95be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fc39e45a5b7d353589946534328a7e') in 0.027954 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_Cover_05.prefab
-  artifactKey: Guid(2605f88d3a092824691ed33e21a760ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_Cover_05.prefab using Guid(2605f88d3a092824691ed33e21a760ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492958a3c6baadf4e4bca36049841452') in 0.039407 seconds 
+  Time since last request: 0.000287 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Tent_01.prefab
+  artifactKey: Guid(8e8c31f8740134d4086fec064d4245d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Tent_01.prefab using Guid(8e8c31f8740134d4086fec064d4245d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec8491289e57f90b2d584412d31a3b4') in 0.029126 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeRound_02.prefab
-  artifactKey: Guid(0c4d65d4a970ec94e9c8b857586f6e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeRound_02.prefab using Guid(0c4d65d4a970ec94e9c8b857586f6e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484426a749a60e2b84df30c42dfd846d') in 0.040374 seconds 
+  Time since last request: 0.000399 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_House_01.prefab
+  artifactKey: Guid(43cecf02ca9a29341aa80150e36f4c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_House_01.prefab using Guid(43cecf02ca9a29341aa80150e36f4c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4ad6dd0e88880359a14ea2b0dbd94a') in 0.034818 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Station_01.prefab
-  artifactKey: Guid(8fb9d4c1e830a6742bda038e0f8c11a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Station_01.prefab using Guid(8fb9d4c1e830a6742bda038e0f8c11a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90651ea59225529d6c63693372171616') in 0.044383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeRound_Roof_01.prefab
-  artifactKey: Guid(a2507b8e2681bcc44ad4183e48f4589c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeRound_Roof_01.prefab using Guid(a2507b8e2681bcc44ad4183e48f4589c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77db34ea6e78fe059b9ddc4e5a522e6b') in 0.056697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_05.prefab
-  artifactKey: Guid(77dd7072ed0a2784d87c474eb9a288b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_05.prefab using Guid(77dd7072ed0a2784d87c474eb9a288b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29abf43640bd23be400cdb4ca3b27c8') in 0.037432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeSquare_04.prefab
-  artifactKey: Guid(464552aa0e0766d47a6df340d469df57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeSquare_04.prefab using Guid(464552aa0e0766d47a6df340d469df57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf722d97480b1b98fcf02230c7829382') in 0.040234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_Corner_02.prefab
-  artifactKey: Guid(6c5d6f00dd2f1d34e8b206b956e60329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_Corner_02.prefab using Guid(6c5d6f00dd2f1d34e8b206b956e60329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc0f0c54285c686ec7f644348e4c878') in 0.036866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeRound_Base_01.prefab
-  artifactKey: Guid(d8907e78c2c985144ab39a324c8597ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeRound_Base_01.prefab using Guid(d8907e78c2c985144ab39a324c8597ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abc754d268acf5535fc19183715d75d') in 0.040898 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_01.prefab
-  artifactKey: Guid(ade248290e90bae40b4a349101c343c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_01.prefab using Guid(ade248290e90bae40b4a349101c343c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1d2f4446558785ebce41ee72271167') in 0.037730 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeRound_01.prefab
-  artifactKey: Guid(54c86e934c1824f46a2a8955ea57091b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeRound_01.prefab using Guid(54c86e934c1824f46a2a8955ea57091b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b7ef054cf6c42abc2452f21e5dab63') in 0.039933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_06.prefab
-  artifactKey: Guid(1e70e6b05165f864f8c42dab5a2544f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_06.prefab using Guid(1e70e6b05165f864f8c42dab5a2544f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db755d79dc50fe557670fbf016425957') in 0.037739 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_03.prefab
-  artifactKey: Guid(e390f42c7625c914e9082218b571c91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_03.prefab using Guid(e390f42c7625c914e9082218b571c91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9799d5eff434eecd5f75635b42d74753') in 0.039235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeRound_04.prefab
-  artifactKey: Guid(57130355dd16ab04386646a2f8aac353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeRound_04.prefab using Guid(57130355dd16ab04386646a2f8aac353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd385785a6f004693cdbacead6cc3a132') in 0.036211 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_Cover_01.prefab
-  artifactKey: Guid(ea3006685c5815f429d7310b7eb965ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_Cover_01.prefab using Guid(ea3006685c5815f429d7310b7eb965ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aabf787934f5c817924830f4574ab1e') in 0.039821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Station_02.prefab
-  artifactKey: Guid(1a6cea8227331c841ba3a0f95dfbe662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Station_02.prefab using Guid(1a6cea8227331c841ba3a0f95dfbe662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd8ed6c8863c6952c8c875e80870793') in 0.038967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_Cover_03.prefab
-  artifactKey: Guid(ea35cb37dd8ed464a813dd7e683a94b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_Cover_03.prefab using Guid(ea35cb37dd8ed464a813dd7e683a94b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7084ddcfdc98fa2c4555818284f2755') in 0.043423 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_Cover_04.prefab
-  artifactKey: Guid(a5e568db0b228c24589c17f5b015934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_Cover_04.prefab using Guid(a5e568db0b228c24589c17f5b015934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a183fb65782ef0274e109cdeadbd7b6') in 0.058791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Roof_Access_01.prefab
-  artifactKey: Guid(e97c4383dd13fb54fb98ecc4e4be2ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Roof_Access_01.prefab using Guid(e97c4383dd13fb54fb98ecc4e4be2ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4ec802bce437d20bf684f8ecb5a28c') in 0.034639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_Cover_02.prefab
-  artifactKey: Guid(739bafb6919218f46b973104ad258f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_Cover_02.prefab using Guid(739bafb6919218f46b973104ad258f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57cac659ff52da9f7c9d2baa6b90a56') in 0.031589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Prop_Water_Tower_01.prefab
-  artifactKey: Guid(b1c9a178d3040a14aac77ac6bcbcc9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Prop_Water_Tower_01.prefab using Guid(b1c9a178d3040a14aac77ac6bcbcc9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be011d85313192286085adbd35ea723') in 0.031044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeSquare_01.prefab
-  artifactKey: Guid(f70c8059d9b8d60429d824a17015ed49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeSquare_01.prefab using Guid(f70c8059d9b8d60429d824a17015ed49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e900221f910a4427a2876a8ee6a05da8') in 0.031712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Spire_01.prefab
-  artifactKey: Guid(9ffce38584b432f48ab23b0733ce9853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Spire_01.prefab using Guid(9ffce38584b432f48ab23b0733ce9853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ea77bbee3c9f7a274c15a7e4dff8c4') in 0.031864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeRound_03.prefab
-  artifactKey: Guid(5d7e66e33ddbaf64cb3580e489134147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeRound_03.prefab using Guid(5d7e66e33ddbaf64cb3580e489134147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001d02fe93dff35498c0589d3b2fd17f') in 0.030643 seconds 
+  Time since last request: 0.000367 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_SmallBuilding_02.prefab
+  artifactKey: Guid(e84635c9579383a409db6da3477e581d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_SmallBuilding_02.prefab using Guid(e84635c9579383a409db6da3477e581d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055a5ea25d8eaad528874b047a57f506') in 0.035040 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000263 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Station_03.prefab
-  artifactKey: Guid(8a86432aa20034e49aa63a2c97cee0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Station_03.prefab using Guid(8a86432aa20034e49aa63a2c97cee0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77b7001ff44cf5c883ca8496c277b9d') in 0.032508 seconds 
+  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_WoodenShack_01.prefab
+  artifactKey: Guid(bb91bd02237ba1e4fbeaf696ffe8fa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_WoodenShack_01.prefab using Guid(bb91bd02237ba1e4fbeaf696ffe8fa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c166edfe644c1c134c8263c605dbef5a') in 0.039126 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeSquare_03.prefab
-  artifactKey: Guid(83d0ec3c099b45e44b769c5f2a30890b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeSquare_03.prefab using Guid(83d0ec3c099b45e44b769c5f2a30890b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561071e63d790d483f04ebf5013e4dd4') in 0.044944 seconds 
+  Time since last request: 0.000291 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_SmallBuilding_01.prefab
+  artifactKey: Guid(3cadbc2079e210144b233760a219b095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_SmallBuilding_01.prefab using Guid(3cadbc2079e210144b233760a219b095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b46f2d2c8d5571cd90ebfc66c782cb7') in 0.040646 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeSquare_Roof_01.prefab
-  artifactKey: Guid(8e6be04d8370d1c4fa754d22592984f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeSquare_Roof_01.prefab using Guid(8e6be04d8370d1c4fa754d22592984f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be79cf8c76c96c739c423f0f4a5a790') in 0.033226 seconds 
+  Time since last request: 0.000338 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_House_Glass_01.prefab
+  artifactKey: Guid(e9b5d1f2bf0b9d14aa3e05c1d365110b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_House_Glass_01.prefab using Guid(e9b5d1f2bf0b9d14aa3e05c1d365110b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8855c80b353d35c747c171e36fd0cd2') in 0.017794 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_02.prefab
-  artifactKey: Guid(694588147c2fd7e41b0105d7054a7f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_02.prefab using Guid(694588147c2fd7e41b0105d7054a7f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93f85c67d3dffb5642539ce8c8fc5b8') in 0.031914 seconds 
+  Time since last request: 0.000404 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_SmallBuilding_03.prefab
+  artifactKey: Guid(2fc01610ec566294893d91f8d8b04a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_SmallBuilding_03.prefab using Guid(2fc01610ec566294893d91f8d8b04a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b945902ea0652c8fd03fd7a94df182a9') in 0.034625 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_Corner_01.prefab
-  artifactKey: Guid(ea45161d31d19c540af5f5091648f652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_Corner_01.prefab using Guid(ea45161d31d19c540af5f5091648f652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd922fe50bc2afe69f8381892afdf18e8') in 0.032042 seconds 
+  Time since last request: 0.000279 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Tent_02.prefab
+  artifactKey: Guid(d4ecf54e1ea1911499271cb18852e93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Tent_02.prefab using Guid(d4ecf54e1ea1911499271cb18852e93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef919b240e7e1f18a7e8bc90eb1dfb1') in 0.030064 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_04.prefab
-  artifactKey: Guid(6e1b6bb6069c8c446bf14668e5eda0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Shop_04.prefab using Guid(6e1b6bb6069c8c446bf14668e5eda0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865e91ec6a54ee41d28d1661f44a9320') in 0.030092 seconds 
+  Time since last request: 0.000377 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Window_Bars_01.prefab
+  artifactKey: Guid(7f9ce6c2d5ff73a45bbd3dd7aac0409c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Window_Bars_01.prefab using Guid(7f9ce6c2d5ff73a45bbd3dd7aac0409c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e167ae33d20d63914858023dc7c39f4b') in 0.037072 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 69.655932 seconds.
-  path: Assets/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Ambo_01.prefab
-  artifactKey: Guid(416c46ca128db5f4bb76f235b4f991d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Ambo_01.prefab using Guid(416c46ca128db5f4bb76f235b4f991d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5026bb6e7fa41b1f2bab45f9f87a001b') in 0.064581 seconds 
+  Time since last request: 0.000352 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_House_02.prefab
+  artifactKey: Guid(0cee5f343e1618e4d9b4cdf0cea994c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_House_02.prefab using Guid(0cee5f343e1618e4d9b4cdf0cea994c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a90d892113e33bab5bef988dc4dcbc') in 0.036580 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Muscle_01.prefab
-  artifactKey: Guid(edf6cb56e12fba648b2cf1e7dfa5bf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Muscle_01.prefab using Guid(edf6cb56e12fba648b2cf1e7dfa5bf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431cc475495160acaa3113ca63f2bc8a') in 0.039036 seconds 
+  Time since last request: 2.545120 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Character_70sFemale_01.prefab
+  artifactKey: Guid(86fbce35c5d130147bc5b953dbf3059c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Character_70sFemale_01.prefab using Guid(86fbce35c5d130147bc5b953dbf3059c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a106ab5529c870ae2d2748471eb356e6') in 0.054161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Character_ToplessMale_01.prefab
+  artifactKey: Guid(97f7e6b749ccd1b4fbd20203ba928e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Character_ToplessMale_01.prefab using Guid(97f7e6b749ccd1b4fbd20203ba928e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d96426423e4020892c33b2cd165ca6') in 0.049833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Character_MercenaryFemale_01.prefab
+  artifactKey: Guid(8a24513771aad7b4fb0e3d52c969a2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Character_MercenaryFemale_01.prefab using Guid(8a24513771aad7b4fb0e3d52c969a2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f068432fbb7bd81b468474debcfae7') in 0.047531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Character_GothFemale_01.prefab
+  artifactKey: Guid(daa9c4ca5ba6fe045b6458a025ba298d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Character_GothFemale_01.prefab using Guid(daa9c4ca5ba6fe045b6458a025ba298d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25f4f934bc2bfad5a9dd308fc7eb884') in 0.045155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Character_SportyFemale_01.prefab
+  artifactKey: Guid(747e5359c417b5d46bed4a579eba5c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Character_SportyFemale_01.prefab using Guid(747e5359c417b5d46bed4a579eba5c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b57d934028ca630e8f8c4e8c1fdf95f') in 0.041122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Character_RedneckMale_01.prefab
+  artifactKey: Guid(7126961e40fcaf34297e9547d17c2f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Character_RedneckMale_01.prefab using Guid(7126961e40fcaf34297e9547d17c2f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d90be1cf05236c1c64026063f62e0c') in 0.041994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Character_MilitaryMale_01.prefab
+  artifactKey: Guid(30c23f6bcd4f35648bbfc61c9f671e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Character_MilitaryMale_01.prefab using Guid(30c23f6bcd4f35648bbfc61c9f671e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db35b6bf206e6e2456e878ec615d47fc') in 0.034543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Character_SportsBraFemale_01.prefab
+  artifactKey: Guid(227f09a23df20ed488e463b9e93a2cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Character_SportsBraFemale_01.prefab using Guid(227f09a23df20ed488e463b9e93a2cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5f5226039694bb731795f83dfd09e0') in 0.041978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Character_SportyMale_02.prefab
+  artifactKey: Guid(a980100c51505dc469368879b38464e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Character_SportyMale_02.prefab using Guid(a980100c51505dc469368879b38464e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb34dfddce22c4e166a22ea758662c8e') in 0.039923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Character_GhillieSuit_01.prefab
+  artifactKey: Guid(b6dd7aa0471525a4ba150a6dd06fc4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Character_GhillieSuit_01.prefab using Guid(b6dd7aa0471525a4ba150a6dd06fc4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de7adfe5af7b444270d8f5a472fcdea') in 0.039789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Character_MercenaryMale_01.prefab
+  artifactKey: Guid(325c2a72f558d4e419ec4f9ea74e54f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Character_MercenaryMale_01.prefab using Guid(325c2a72f558d4e419ec4f9ea74e54f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3de5a1168699f2943696c33410848fa') in 0.037854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Character_SportyFemale_02.prefab
+  artifactKey: Guid(136486fd3adeccb4a93bbede6d9d4a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Character_SportyFemale_02.prefab using Guid(136486fd3adeccb4a93bbede6d9d4a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b279b1fa0afdaa11a904a897a38444') in 0.035088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Character_BusinessMale_01.prefab
+  artifactKey: Guid(18ff8a7a7ca91ff4bab92d116fa797c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Character_BusinessMale_01.prefab using Guid(18ff8a7a7ca91ff4bab92d116fa797c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c024c4adc8cc88d6555c1a135e8c7cd') in 0.032891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Character_MilitaryFemale_01.prefab
+  artifactKey: Guid(5d65c3bd98b79f84e996821ebfc0a190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Character_MilitaryFemale_01.prefab using Guid(5d65c3bd98b79f84e996821ebfc0a190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e46918dd032c49c7de3842881025e1') in 0.035879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Character_SportyMale_01.prefab
+  artifactKey: Guid(948bbd331c306c945ba7d4f6d7d76d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Character_SportyMale_01.prefab using Guid(948bbd331c306c945ba7d4f6d7d76d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a773552d33a6cb2909f9bd2d244edf') in 0.045479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.820526 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Beach_01.prefab
+  artifactKey: Guid(08d1994c86c73d14eab3e6336b70f750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Beach_01.prefab using Guid(08d1994c86c73d14eab3e6336b70f750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21da766e969516d9291ce4a505f90f3') in 0.013370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_DirtRoad_Straight_01.prefab
+  artifactKey: Guid(82bad799e641e8a418c4942ff4bf423d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_DirtRoad_Straight_01.prefab using Guid(82bad799e641e8a418c4942ff4bf423d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74137ae1ad2483431706382ee907a93') in 0.026261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rock_01.prefab
+  artifactKey: Guid(d7beb5687da9e074fbb0455868c345dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rock_01.prefab using Guid(d7beb5687da9e074fbb0455868c345dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fdbad2d7d8595590d9d9c5e4bd178e') in 0.022051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rubble_Plank_03.prefab
+  artifactKey: Guid(198eb5b8a357d2a4eab37532c7cfdb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rubble_Plank_03.prefab using Guid(198eb5b8a357d2a4eab37532c7cfdb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb03c7b8abd8f4572c01b77da3eec4e') in 0.025815 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000222 seconds.
-  path: Assets/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Police_01.prefab
-  artifactKey: Guid(f539f0390d17a9f4a922b722e47998fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Police_01.prefab using Guid(f539f0390d17a9f4a922b722e47998fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355cfbde42eade808b0b62cd8c2d5c14') in 0.037877 seconds 
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rock_02.prefab
+  artifactKey: Guid(1e3861f9ad1beae4eadd9ad081712f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rock_02.prefab using Guid(1e3861f9ad1beae4eadd9ad081712f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebe2898585b3b5d8b297a4780dbe800') in 0.025647 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Medium_01.prefab
-  artifactKey: Guid(fcd06c9319e99cc4bbee7ce7730d9422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Medium_01.prefab using Guid(fcd06c9319e99cc4bbee7ce7730d9422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b5735251aa52bbc70f46401ab30f77') in 0.057328 seconds 
+  Time since last request: 0.000324 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Port_Wall_01.prefab
+  artifactKey: Guid(0d765ad87b911904c8136bcfcbab23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Port_Wall_01.prefab using Guid(0d765ad87b911904c8136bcfcbab23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7606962c9aefbbcf051f414ee024fed1') in 0.025149 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Van_01.prefab
-  artifactKey: Guid(94469aeaca2d49442af381840b70bb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Van_01.prefab using Guid(94469aeaca2d49442af381840b70bb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17399d26927f4dcf20d88abd246a0749') in 0.053190 seconds 
+  Time since last request: 0.000360 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Cross_01.prefab
+  artifactKey: Guid(e1573fe8f21982d4094eadc2e21d3ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Cross_01.prefab using Guid(e1573fe8f21982d4094eadc2e21d3ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3bb4e185c43f69793638994ef63b93') in 0.023598 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Taxi_01.prefab
-  artifactKey: Guid(a916a44328d322240bd1aaaca22fc8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Taxi_01.prefab using Guid(a916a44328d322240bd1aaaca22fc8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ec66be03d35dc853b9263e205cf515') in 0.054064 seconds 
+  Time since last request: 0.000201 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Straight_03.prefab
+  artifactKey: Guid(63f52685b1f2fab498745a15377a2b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Straight_03.prefab using Guid(63f52685b1f2fab498745a15377a2b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4235bbc9451dcc846e8f8235b4eb4e') in 0.023617 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Small_01.prefab
-  artifactKey: Guid(0383b854a926f1643b20f9c7cdb2e4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Small_01.prefab using Guid(0383b854a926f1643b20f9c7cdb2e4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20a85ed5e381ff5e79f1dd6068768e8') in 0.055342 seconds 
+  Time since last request: 0.000193 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Straight_Damaged_03.prefab
+  artifactKey: Guid(fdd5deee0cd2c644f9ff5983007de72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Straight_Damaged_03.prefab using Guid(fdd5deee0cd2c644f9ff5983007de72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6d0deaf0b1b917878e73c78a57fbeb') in 0.022609 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Sedan_01.prefab
-  artifactKey: Guid(85ac88d7c46e0ea4583870a98cc13580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Sedan_01.prefab using Guid(85ac88d7c46e0ea4583870a98cc13580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee909fc88b5ee788052785e46b46d968') in 0.055833 seconds 
+  Time since last request: 0.000162 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rubble_Pebbles_01.prefab
+  artifactKey: Guid(b3cdda3cca11aab4b831821407447d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rubble_Pebbles_01.prefab using Guid(b3cdda3cca11aab4b831821407447d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b670cb1a482fb435ee967b660cb964b1') in 0.021015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Port_Wall_Corner_01.prefab
+  artifactKey: Guid(40f4d454ca407bc4c961796fa8161151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Port_Wall_Corner_01.prefab using Guid(40f4d454ca407bc4c961796fa8161151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39c08c09595848696cad7aca54e9a41') in 0.029791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Straight_End_01.prefab
+  artifactKey: Guid(061ef3f04c08a1647b3f8d4a9835b9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Straight_End_01.prefab using Guid(061ef3f04c08a1647b3f8d4a9835b9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ff7a16e89d785ea596a09a3671872c') in 0.025820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Bridge_01.prefab
+  artifactKey: Guid(91c4009e24cdf164dae56b43b3e1454f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Bridge_01.prefab using Guid(91c4009e24cdf164dae56b43b3e1454f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc20e20f8306f62950e9c240d6f8e15f') in 0.025596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_T_01.prefab
+  artifactKey: Guid(1802cdb3d0fa94246908ed9fd379f689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_T_01.prefab using Guid(1802cdb3d0fa94246908ed9fd379f689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b475d8162c82ea798b560bfa71d06f') in 0.021257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Grass_Circle_02.prefab
+  artifactKey: Guid(493c8e798d0ed12468996c1a02e0c4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Grass_Circle_02.prefab using Guid(493c8e798d0ed12468996c1a02e0c4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053d55d272d5489f4e0165afca02f0d6') in 0.019113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Bridge_Support_01.prefab
+  artifactKey: Guid(419aefbcec9e5084dac11a75d61d329a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Bridge_Support_01.prefab using Guid(419aefbcec9e5084dac11a75d61d329a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50bdcf630a354e9e336b2fc16c081cd8') in 0.049494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Corner_02.prefab
+  artifactKey: Guid(38f589c09288e384f93b93dc34dc435b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Corner_02.prefab using Guid(38f589c09288e384f93b93dc34dc435b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0bb0d19795060e165dc2a23dc44a01') in 0.024290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Port_Boat_Tie_01.prefab
+  artifactKey: Guid(2da28168743016746b5df127f2837a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Port_Boat_Tie_01.prefab using Guid(2da28168743016746b5df127f2837a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a6203c56c56ca63817b77ee3e139e6') in 0.022359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Concrete_Base_01.prefab
+  artifactKey: Guid(1b02492fc66581741a9c5fd08841f769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Concrete_Base_01.prefab using Guid(1b02492fc66581741a9c5fd08841f769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810ddaad225640c94fc17219f7b0da1d') in 0.022169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Beach_Staight_01.prefab
+  artifactKey: Guid(410ff37fd4047ff49adc18d248de45d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Beach_Staight_01.prefab using Guid(410ff37fd4047ff49adc18d248de45d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e64b5b77f5f8b2baae62728271f4342') in 0.021242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_DirtRoad_End_01.prefab
+  artifactKey: Guid(2c86a933664634841bd2ebe81e0a2078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_DirtRoad_End_01.prefab using Guid(2c86a933664634841bd2ebe81e0a2078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431e4e59203ff2621c4480821c7d3141') in 0.021414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Bridge_Broken_01.prefab
+  artifactKey: Guid(20acbdb223166c04789016ac05735b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Bridge_Broken_01.prefab using Guid(20acbdb223166c04789016ac05735b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbad0e5167190ba61cb07acbbc2646d') in 0.011223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Port_Concrete_Slab_01.prefab
+  artifactKey: Guid(367c6fe1a26480944a9793eb305d824f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Port_Concrete_Slab_01.prefab using Guid(367c6fe1a26480944a9793eb305d824f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8961ae32c32a7d0685036d7cb784f5') in 0.014806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Bridge_02.prefab
+  artifactKey: Guid(37141140a7d94c849a14e9e39fd9e95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Bridge_02.prefab using Guid(37141140a7d94c849a14e9e39fd9e95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee0b38c1fda8b033601110c950f880c') in 0.013287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Straight_01.prefab
+  artifactKey: Guid(37c3590bcdbc7c648ac2969b6b7a08a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Straight_01.prefab using Guid(37c3590bcdbc7c648ac2969b6b7a08a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acdf1de9f72968cad2cb4e8266a968f') in 0.027871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Port_Wall_02.prefab
+  artifactKey: Guid(564eb5ac1c6fdc14dba2d2f8ccf992f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Port_Wall_02.prefab using Guid(564eb5ac1c6fdc14dba2d2f8ccf992f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca369f0373b3aed8adbc862ab7ac8e0e') in 0.023939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rubble_Plank_02.prefab
+  artifactKey: Guid(911e43b19125da6409d89497f56f7103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rubble_Plank_02.prefab using Guid(911e43b19125da6409d89497f56f7103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5739fcd9c4ef2e4f794e5febc11d9a') in 0.021295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Straight_Damaged_01.prefab
+  artifactKey: Guid(d4725f49d59dd1347a470fd3ff9c880f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Straight_Damaged_01.prefab using Guid(d4725f49d59dd1347a470fd3ff9c880f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44255a9feabfed6e2c14ae732061c3b9') in 0.023411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Straight_02.prefab
+  artifactKey: Guid(1e085e653e87a0048b04e267a68b60e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Straight_02.prefab using Guid(1e085e653e87a0048b04e267a68b60e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d7f4b72c1f8340029f651e8e2c655e') in 0.024542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Dock_Poles_01.prefab
+  artifactKey: Guid(cdc65718edf46c04a92b8ac282fe3896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Dock_Poles_01.prefab using Guid(cdc65718edf46c04a92b8ac282fe3896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2e08eb78ec2b2b3923ee20d0ada63f') in 0.021507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Grass_Square_01.prefab
+  artifactKey: Guid(f7dc8d1971098534588afce7d1a72784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Grass_Square_01.prefab using Guid(f7dc8d1971098534588afce7d1a72784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f58e3e74bb34abdb31c56443c2ac1c0') in 0.027427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rubble_Pile_01.prefab
+  artifactKey: Guid(aa510ff3d2aaac5429850d22a2941247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rubble_Pile_01.prefab using Guid(aa510ff3d2aaac5429850d22a2941247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49d0a5f9082f2bdb54618c2dcf777dc') in 0.021074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Beach_Staight_02.prefab
+  artifactKey: Guid(a900a769f8a4af141813881cb1eb838c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Beach_Staight_02.prefab using Guid(a900a769f8a4af141813881cb1eb838c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75315a81c838e67ef4e350df850db21a') in 0.025584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rubble_Plank_01.prefab
+  artifactKey: Guid(cdcab699bf378d24dbdb4fd1db84fc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rubble_Plank_01.prefab using Guid(cdcab699bf378d24dbdb4fd1db84fc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f43b7b075d31206754606c272b6dbf7') in 0.026565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Corner_01.prefab
+  artifactKey: Guid(3b87b97dae899f24daa9b2f9224b6481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Corner_01.prefab using Guid(3b87b97dae899f24daa9b2f9224b6481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c142d3471a7e3e23de0c081e8bb8e099') in 0.026162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Straight_Damaged_02.prefab
+  artifactKey: Guid(b4f843017807dfb45a67046282e14faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Straight_Damaged_02.prefab using Guid(b4f843017807dfb45a67046282e14faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91d88249cd6a03279c76c8fa3d2a6af') in 0.020864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Dock_01.prefab
+  artifactKey: Guid(db8d0616d60ffdb42842cf3aea878066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Dock_01.prefab using Guid(db8d0616d60ffdb42842cf3aea878066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7fe2d7ce1bae27e30aaa6fa9ea355e') in 0.020227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rubble_Pebbles_02.prefab
+  artifactKey: Guid(20d4d1d81be647842afbca4b0c65e82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rubble_Pebbles_02.prefab using Guid(20d4d1d81be647842afbca4b0c65e82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4c22f456dbbff70c6427787b17926f') in 0.022829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rubble_Pile_02.prefab
+  artifactKey: Guid(4b0ae1d9a12974f4e96ef8b030b8232e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rubble_Pile_02.prefab using Guid(4b0ae1d9a12974f4e96ef8b030b8232e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538e466b2214fc6fcb680cdccdad4892') in 0.020856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Grass_Circle_01.prefab
+  artifactKey: Guid(4f89542e855145648969cf74a2b049f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Grass_Circle_01.prefab using Guid(4f89542e855145648969cf74a2b049f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1fc190c83dd208f489f1de0edf50ec') in 0.020232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rubble_Pebbles_03.prefab
+  artifactKey: Guid(dcc4f2b0304bbd04bb61515da38c14d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rubble_Pebbles_03.prefab using Guid(dcc4f2b0304bbd04bb61515da38c14d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f66c73d5d1e4993a04ae2126aa3631') in 0.025919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.162479 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/FX/BloodSplat_FX.prefab
+  artifactKey: Guid(78e1c8c5b281b8b439229473779ac9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/FX/BloodSplat_FX.prefab using Guid(78e1c8c5b281b8b439229473779ac9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868dd2c7f216986c363987447d19e5d1') in 0.042838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/FX/GunShot_Smoke_FX.prefab
+  artifactKey: Guid(2574ca206a571a342a7fab69fdfb87aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/FX/GunShot_Smoke_FX.prefab using Guid(2574ca206a571a342a7fab69fdfb87aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5abb73763ddf45f4154bfe0655cb013') in 0.019909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/FX/Explosion_Dirt_FX.prefab
+  artifactKey: Guid(680cf5ea6c1d41e4f9cce6ab07ce0200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/FX/Explosion_Dirt_FX.prefab using Guid(680cf5ea6c1d41e4f9cce6ab07ce0200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358f64723804e5f439aab0053d8b5ce8') in 0.025619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/FX/Smoke_FX.prefab
+  artifactKey: Guid(9b967c5de3c01184889d94aa4f20fd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/FX/Smoke_FX.prefab using Guid(9b967c5de3c01184889d94aa4f20fd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88f4f9fa0d1c508c1ca258c09005d82') in 0.013857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/FX/Explosion_Small_FX.prefab
+  artifactKey: Guid(5ed0a013702bd9f42847584f2fba7b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/FX/Explosion_Small_FX.prefab using Guid(5ed0a013702bd9f42847584f2fba7b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce994f311095f4105d182f4d03da944a') in 0.025155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/FX/Bullet_Trail_FX.prefab
+  artifactKey: Guid(2298236a23b5c4349b5f8204068aadf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/FX/Bullet_Trail_FX.prefab using Guid(2298236a23b5c4349b5f8204068aadf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689b487be50ca9d55c5c16444062f393') in 0.019377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/FX/Rain_FX.prefab
+  artifactKey: Guid(f81de7bb2c3638946887a0e6588e69f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/FX/Rain_FX.prefab using Guid(f81de7bb2c3638946887a0e6588e69f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bb6368d006818f204de762f0703404') in 0.021717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/FX/Bullet_Shell_FX.prefab
+  artifactKey: Guid(8698f59a8ea9a0c449a001968fa1db7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/FX/Bullet_Shell_FX.prefab using Guid(8698f59a8ea9a0c449a001968fa1db7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51c6bd1317312042d13c2e598a7c44e') in 0.022911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/FX/Explosion_Large_FX.prefab
+  artifactKey: Guid(585a1ef8c48a0cf4f97332139e4344de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/FX/Explosion_Large_FX.prefab using Guid(585a1ef8c48a0cf4f97332139e4344de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00be29cb8ee544fbf8bda2828d0580d8') in 0.024987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/FX/Explosion_Concrete_Rubble_Large_FX.prefab
+  artifactKey: Guid(2b79ec10654f26344816627d7515c1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/FX/Explosion_Concrete_Rubble_Large_FX.prefab using Guid(2b79ec10654f26344816627d7515c1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ecb60afbc72e120f926665ef07f11f9') in 0.027554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/FX/Smoke_Large_FX.prefab
+  artifactKey: Guid(1a32a091b9974a44ba00934e88f53548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/FX/Smoke_Large_FX.prefab using Guid(1a32a091b9974a44ba00934e88f53548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8b5994b2a5078efa21220cd024697d') in 0.027820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/FX/DamageZone.prefab
+  artifactKey: Guid(dd68423548c16c047ac1ea1abf44e810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/FX/DamageZone.prefab using Guid(dd68423548c16c047ac1ea1abf44e810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f2d6b80b6156c971be2511aeaad83f') in 0.199042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/FX/Explosion_Smoke_FX.prefab
+  artifactKey: Guid(53777b8572d1e7242bc90044f62667ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/FX/Explosion_Smoke_FX.prefab using Guid(53777b8572d1e7242bc90044f62667ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a69e6bab2099fef9ba0ef8975d9842') in 0.024006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/FX/Smoke_Small_Dark_FX.prefab
+  artifactKey: Guid(b92ea96f848a59944ae963daf2923c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/FX/Smoke_Small_Dark_FX.prefab using Guid(b92ea96f848a59944ae963daf2923c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1249bc4feb24c17bb65cfe2a5480f3db') in 0.025874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.859627 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Env_Bush_01.prefab
+  artifactKey: Guid(3f90b914695a45b4b8ec6533e009937c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Env_Bush_01.prefab using Guid(3f90b914695a45b4b8ec6533e009937c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9c439b468e80c1375a8697701edc87') in 0.016017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Tree_04.prefab
+  artifactKey: Guid(8d560c9fa173a2a4ca67babc0f8a4432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Tree_04.prefab using Guid(8d560c9fa173a2a4ca67babc0f8a4432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ae267ddf0fac49f3092fb1bb614d52') in 0.023601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_TreeStump_01.prefab
+  artifactKey: Guid(154b2c1f1fdd06343a26e23086fcc184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_TreeStump_01.prefab using Guid(154b2c1f1fdd06343a26e23086fcc184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf412cd0b43bce773f6d63839694b0fc') in 0.045051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Cloud_02.prefab
+  artifactKey: Guid(459f84f0d480fa846a6fbea5fc188a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Cloud_02.prefab using Guid(459f84f0d480fa846a6fbea5fc188a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69eab336147348bb40a9885abda37b9') in 0.032822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Grass_Patch_02.prefab
+  artifactKey: Guid(6c5763059d78ddc449acd2e31e6f24d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Grass_Patch_02.prefab using Guid(6c5763059d78ddc449acd2e31e6f24d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cede1becbf5b4074d810176b1add7467') in 0.022153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Mountains_Grass_01.prefab
+  artifactKey: Guid(154e34ab1b9d1a647a2e2a001a63f911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Mountains_Grass_01.prefab using Guid(154e34ab1b9d1a647a2e2a001a63f911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247fe1cbc3d9a49eadbf9ea1d1060d87') in 0.028662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Env_Bush_02.prefab
+  artifactKey: Guid(26d8ba263e005bc41afb31205a5dedb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Env_Bush_02.prefab using Guid(26d8ba263e005bc41afb31205a5dedb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7443aac09bee122fb3f0e1af51c46a9') in 0.022310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Cloud_01.prefab
+  artifactKey: Guid(c01ca37be14b54f4cbc967dfb901bc5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Cloud_01.prefab using Guid(c01ca37be14b54f4cbc967dfb901bc5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b2ded4b55579ae52215cd3d19f8c79') in 0.025762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Tree_03.prefab
+  artifactKey: Guid(a55a5493fb3426d43a13a5b082e02558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Tree_03.prefab using Guid(a55a5493fb3426d43a13a5b082e02558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6bfb8135142151f9a0b36f4686bde1') in 0.023037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_TreeDead_01.prefab
+  artifactKey: Guid(406a5d7803b0f19438c33158b169dd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_TreeDead_01.prefab using Guid(406a5d7803b0f19438c33158b169dd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c95a331de677b1a030e164e744f927') in 0.025151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Mountains_Grass_02.prefab
+  artifactKey: Guid(3e5ce48b5168af34484634dfca05dfe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Mountains_Grass_02.prefab using Guid(3e5ce48b5168af34484634dfca05dfe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf677caed54817770534e284873d4b9') in 0.028217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Cloud_04.prefab
+  artifactKey: Guid(db02055f97a9502429d3f861901af9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Cloud_04.prefab using Guid(db02055f97a9502429d3f861901af9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e97e65504badfbacb336427d5f7909') in 0.025555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Mountains_Soft_01.prefab
+  artifactKey: Guid(5c6d758d37ba80347ba0f4683cb854ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Mountains_Soft_01.prefab using Guid(5c6d758d37ba80347ba0f4683cb854ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c5436693eeb8464a5b1c779765327b') in 0.027546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Grass_Patch_01.prefab
+  artifactKey: Guid(7f0b4051ed0c7104da43204b2ecb5c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Grass_Patch_01.prefab using Guid(7f0b4051ed0c7104da43204b2ecb5c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca77e8d52180e4be275d12a8e8ea29d7') in 0.022989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Small_Rocks_02.prefab
+  artifactKey: Guid(120a6a7fb0013534780f58affd1309e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Small_Rocks_02.prefab using Guid(120a6a7fb0013534780f58affd1309e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25d0694afd48d210bd0dfef8f0e659a') in 0.026155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Tree_02.prefab
+  artifactKey: Guid(4a5410bae7964bf42b1abccfb070bd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Tree_02.prefab using Guid(4a5410bae7964bf42b1abccfb070bd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5580251b8fc7238997d1fcaa0dd3a82') in 0.028061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Mountains_Snow_01.prefab
+  artifactKey: Guid(afeef269f7c345944a09fa066cfb9657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Mountains_Snow_01.prefab using Guid(afeef269f7c345944a09fa066cfb9657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ec545eaaf55d169c9665b81e0a0080') in 0.023948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Env_Bush_03.prefab
+  artifactKey: Guid(51803f22817ba224297a8f4dc1585284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Env_Bush_03.prefab using Guid(51803f22817ba224297a8f4dc1585284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2845b7e8bd3bc645c23b339b0597128') in 0.027275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Tree_01.prefab
+  artifactKey: Guid(57bca5bb26005a249ad8ad0575e31693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Tree_01.prefab using Guid(57bca5bb26005a249ad8ad0575e31693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035adc00d9fc9316f62d2ad4753389ab') in 0.021333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Cloud_03.prefab
+  artifactKey: Guid(e227af17bf4ea264d8d32b9f0fcda421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Cloud_03.prefab using Guid(e227af17bf4ea264d8d32b9f0fcda421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a020a90ca6cd33fe09572035f92a50b7') in 0.027049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Small_Rocks_01.prefab
+  artifactKey: Guid(31ff660a93c8f2b48a763837974041d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Generic_Small_Rocks_01.prefab using Guid(31ff660a93c8f2b48a763837974041d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9b37996c9c61cdce5709a3cc3e3bfd') in 0.024369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Env_Bush_04.prefab
+  artifactKey: Guid(58b362373569bcc4d80d7e3f01f71fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Generic/SM_Env_Bush_04.prefab using Guid(58b362373569bcc4d80d7e3f01f71fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9732bb656bf4e9b27d07eedc95043670') in 0.022983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.556972 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_AmmoBox_01.prefab
+  artifactKey: Guid(4ed3355cdb3d9424f8f80b2a79da3543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_AmmoBox_01.prefab using Guid(4ed3355cdb3d9424f8f80b2a79da3543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3c82a09a41ca8a5a9ad553e411d449') in 0.015029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_CardboardBox_01.prefab
+  artifactKey: Guid(2454dbbdbc43b9b47adf808647c27b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_CardboardBox_01.prefab using Guid(2454dbbdbc43b9b47adf808647c27b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e818c1468564b8420556e3d25a755de7') in 0.021758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_GuardTower_01.prefab
+  artifactKey: Guid(2519fcdc1183c2e46be8eb01405a2ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_GuardTower_01.prefab using Guid(2519fcdc1183c2e46be8eb01405a2ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775966fa348cbc38661acbd6983ea37d') in 0.024246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Barrel_02.prefab
+  artifactKey: Guid(5b208b30237704b4ba8379eebcbc6b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Barrel_02.prefab using Guid(5b208b30237704b4ba8379eebcbc6b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a3868fd85a48e5dcc31e7c0caf37ae') in 0.022310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_C4_02.prefab
+  artifactKey: Guid(55fba3a8552fc8344a26e07b5595704b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_C4_02.prefab using Guid(55fba3a8552fc8344a26e07b5595704b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37953b121dcbeb6987e3a29efb7765a7') in 0.022684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Bandage_02.prefab
+  artifactKey: Guid(9466b80ebf342b94a9d210915a30c9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Bandage_02.prefab using Guid(9466b80ebf342b94a9d210915a30c9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fe75a6d44d2254893279be6bab58c4') in 0.019895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_MedicalBox_01.prefab
+  artifactKey: Guid(9efa848c9a423b04493ee1b7772154b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_MedicalBox_01.prefab using Guid(9efa848c9a423b04493ee1b7772154b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b713afa72c01a290691bfcc7498a3c8') in 0.022712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_HeadBase_Black.prefab
+  artifactKey: Guid(138947d7b18806c40a7bedf7b12070b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_HeadBase_Black.prefab using Guid(138947d7b18806c40a7bedf7b12070b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae75e21622696e12f0b30f725ccdc28') in 0.022178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Gauze_01.prefab
+  artifactKey: Guid(9c4271fb7648e4f429e30e08c308608f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Gauze_01.prefab using Guid(9c4271fb7648e4f429e30e08c308608f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79956a2bbd7a41aeb7a4310d2ff65746') in 0.021541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Crate_Large_01.prefab
+  artifactKey: Guid(7d261aef3b84ccb4b91a005a110cdafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Crate_Large_01.prefab using Guid(7d261aef3b84ccb4b91a005a110cdafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874c25687ac59aac0ac08b96b6f54594') in 0.021434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Key_03.prefab
+  artifactKey: Guid(3953c797de776d34bb5f79a636d9b86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Key_03.prefab using Guid(3953c797de776d34bb5f79a636d9b86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a88c1b47ea55caee4ab27ee085c401') in 0.022526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Barrier_04.prefab
+  artifactKey: Guid(e6826632b4992aa4d93bff220fa71a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Barrier_04.prefab using Guid(e6826632b4992aa4d93bff220fa71a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0ba27bf33bb0fc1eb67ae2cd7429e0') in 0.024676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Cinderblock_01.prefab
+  artifactKey: Guid(d9eca80ba769c8e40a68c033d8632244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Cinderblock_01.prefab using Guid(d9eca80ba769c8e40a68c033d8632244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5ae5891362aca2dbc4e1cf048cbfa7') in 0.026462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_C4_01.prefab
+  artifactKey: Guid(5f1c906149e1b784fb3f520f56685090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_C4_01.prefab using Guid(5f1c906149e1b784fb3f520f56685090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dddda36204a7efbe85583cc580e4083d') in 0.022368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Barrier_03.prefab
+  artifactKey: Guid(e3fb5d6f4f1c46f4c88b9337e735ef46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Barrier_03.prefab using Guid(e3fb5d6f4f1c46f4c88b9337e735ef46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3db0574d831004085fd9ac22d6c0bd5') in 0.024670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Bandage_01.prefab
+  artifactKey: Guid(6e9029210df1a9541b7e9e42b790ab8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Bandage_01.prefab using Guid(6e9029210df1a9541b7e9e42b790ab8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfac0b4fec9c577244258f9151473ac') in 0.021769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Barrier_Dirt_01.prefab
+  artifactKey: Guid(7a4f034a60881ab489ad7bbb269f5b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Barrier_Dirt_01.prefab using Guid(7a4f034a60881ab489ad7bbb269f5b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830a32bd44be6ca1bbb447b71ef9880f') in 0.027318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Container_01.prefab
+  artifactKey: Guid(bb5372a4488a7414abff91d36b3fcdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Container_01.prefab using Guid(bb5372a4488a7414abff91d36b3fcdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15046400819c751ae1713d400a94c093') in 0.024235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_HeadBase_Skin.prefab
+  artifactKey: Guid(c3ba20aedab98db468742120041b4092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_HeadBase_Skin.prefab using Guid(c3ba20aedab98db468742120041b4092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3daa2e81eb47b06c19eef4d9dd55ff') in 0.022857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_BaseWall_Broken_01.prefab
+  artifactKey: Guid(ba3e5aae0c91f3440810571444be825b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_BaseWall_Broken_01.prefab using Guid(ba3e5aae0c91f3440810571444be825b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b736a49e567073a1bd0d0f4c938e4f') in 0.023071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_BunkBed_01.prefab
+  artifactKey: Guid(2d3a45ade0e0c37429c35f1e9f42bff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_BunkBed_01.prefab using Guid(2d3a45ade0e0c37429c35f1e9f42bff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e734e3f65813624d904855bb294c940e') in 0.028090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_HeadBase_White.prefab
+  artifactKey: Guid(697a94483ffa3e144aea56af30e2ab27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_HeadBase_White.prefab using Guid(697a94483ffa3e144aea56af30e2ab27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb729c737774bf56de3dce388c9bfa6') in 0.023302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Iron_Sheet_02.prefab
+  artifactKey: Guid(eef911e61ad1ee441bad98261f5302a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Iron_Sheet_02.prefab using Guid(eef911e61ad1ee441bad98261f5302a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0cf7a55de14f024a51d50ab6aba91f') in 0.031913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Barrier_02.prefab
+  artifactKey: Guid(d936f0bc100a8c84e91239b4eec3ce62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Barrier_02.prefab using Guid(d936f0bc100a8c84e91239b4eec3ce62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99dc31ce8132b1acb11ffab7c005532c') in 0.041082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Iron_Sheet_03.prefab
+  artifactKey: Guid(06434d63976e52c49ac427a6270a1c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Iron_Sheet_03.prefab using Guid(06434d63976e52c49ac427a6270a1c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed44943ce6f6a1965a01b4113b1ce9d6') in 0.023624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Generator_01.prefab
+  artifactKey: Guid(8c366b74a8be11d409236ded1f90f979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Generator_01.prefab using Guid(8c366b74a8be11d409236ded1f90f979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0eec249e11554ea5236d75ffdfaa5a7') in 0.024397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Cinderblock_Wall_01.prefab
+  artifactKey: Guid(a60aed3109aac2e4e8b4fbd8e35506ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Cinderblock_Wall_01.prefab using Guid(a60aed3109aac2e4e8b4fbd8e35506ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2506b9ca5f2adf9dfa030f127f490c') in 0.027369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Crate_01.prefab
+  artifactKey: Guid(00a13970af147ef4ebfcd56832d3a930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Crate_01.prefab using Guid(00a13970af147ef4ebfcd56832d3a930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33848b1878ce227a3c38a38e382d2a78') in 0.027538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_BaseWall_01.prefab
+  artifactKey: Guid(f996731b12085f44883c30318a77c3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_BaseWall_01.prefab using Guid(f996731b12085f44883c30318a77c3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bd524390a621ca5dcfae339bbd7c24') in 0.020999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Iron_Sheet_01.prefab
+  artifactKey: Guid(5db0002daf8c44b4eae4a1f3fd2d8e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Iron_Sheet_01.prefab using Guid(5db0002daf8c44b4eae4a1f3fd2d8e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f532e09b6cb13ea106e68036c980d5') in 0.022575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Key_02.prefab
+  artifactKey: Guid(a3742cededadc1a4ab71a69b91d65f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Key_02.prefab using Guid(a3742cededadc1a4ab71a69b91d65f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf60da57ea019d6f18956f15edbffb8') in 0.020213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_EmergencyDrop_01.prefab
+  artifactKey: Guid(da21a5a922007a641b197316ea708507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_EmergencyDrop_01.prefab using Guid(da21a5a922007a641b197316ea708507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c657b5d79f9475911d1b09d98f1acd85') in 0.022245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_BaseWall_Broken_02.prefab
+  artifactKey: Guid(c848faff790b67743b0a251f06fa8149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_BaseWall_Broken_02.prefab using Guid(c848faff790b67743b0a251f06fa8149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29607b434d0ba08a07e49856402a6565') in 0.043289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Crate_Medical_01.prefab
+  artifactKey: Guid(538bd2dae55dac44f942fd3ed7c2a334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Crate_Medical_01.prefab using Guid(538bd2dae55dac44f942fd3ed7c2a334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce63d0c0bdc46506b7e32a5dd5204a8f') in 0.024346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Barrier_01.prefab
+  artifactKey: Guid(2252526341f17ff40b51a7eac1c47b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Barrier_01.prefab using Guid(2252526341f17ff40b51a7eac1c47b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5eb4a5f50b836f7e8525aa3eba9e75') in 0.022803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_BaseWall_Post_01.prefab
+  artifactKey: Guid(65fe79807b3b4df47a284338d45ef716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_BaseWall_Post_01.prefab using Guid(65fe79807b3b4df47a284338d45ef716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fafef072a9bda5f00ed285ea739a5a4') in 0.027662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_HeadBase_Grey.prefab
+  artifactKey: Guid(e71f191c2ab72be459eb59f1993af957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_HeadBase_Grey.prefab using Guid(e71f191c2ab72be459eb59f1993af957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801eb51c6689731e7725e7fd251d98c7') in 0.028587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Crate_Small_01.prefab
+  artifactKey: Guid(dd3f824ae4639134c96c9d7551f16760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Crate_Small_01.prefab using Guid(dd3f824ae4639134c96c9d7551f16760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087b0702a14f95441de687061af4c653') in 0.027235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_EmergencyDrop_Crate_01.prefab
+  artifactKey: Guid(4a304209bbfe02249bd92db44aa22f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_EmergencyDrop_Crate_01.prefab using Guid(4a304209bbfe02249bd92db44aa22f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb48fc8b476a3e03eaf2d0f4f095528') in 0.024310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_BriefcaseBomb_01.prefab
+  artifactKey: Guid(9806e8e91f17e534291605ec5b47e5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_BriefcaseBomb_01.prefab using Guid(9806e8e91f17e534291605ec5b47e5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349ba3e21e89412ca44ae00b7688727d') in 0.021801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Benchpress_01.prefab
+  artifactKey: Guid(8e50e14a4116542438b34d7baaa0d9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Benchpress_01.prefab using Guid(8e50e14a4116542438b34d7baaa0d9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e79a707144025f2fb30e79b0916ed7d') in 0.025586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Key_01.prefab
+  artifactKey: Guid(e6c68ab0a762a4740ad92ddc8af42795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Key_01.prefab using Guid(e6c68ab0a762a4740ad92ddc8af42795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0561f67d99159e080e2ee04105f6418f') in 0.024559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Barricade_01.prefab
+  artifactKey: Guid(8895dea04dd3bd942a9039e333512a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Barricade_01.prefab using Guid(8895dea04dd3bd942a9039e333512a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d221769cb9e204a1eed0909e6c6ac2c') in 0.021678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Container_Small_01.prefab
+  artifactKey: Guid(84a99c98a26b5db42a6ae70961fcf1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Container_Small_01.prefab using Guid(84a99c98a26b5db42a6ae70961fcf1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf245b58e5a9fcd852f88d2b475cebd') in 0.028970 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000227 seconds.
-  path: Assets/PolygonCity/Prefabs/Vehicles/SM_Veh_Steering_Wheel_01.prefab
-  artifactKey: Guid(722e3b426f61a5e44b0cfe828760da3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Vehicles/SM_Veh_Steering_Wheel_01.prefab using Guid(722e3b426f61a5e44b0cfe828760da3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1003d37a320130a9c6af1595d41440') in 0.065594 seconds 
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Barrel_01.prefab
+  artifactKey: Guid(8089c8951d9c6b44f89ee4403039bf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Barrel_01.prefab using Guid(8089c8951d9c6b44f89ee4403039bf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa26ef0333ce5a37a532f1c9c6009d7') in 0.022176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.857615 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_MedicalBox_02.prefab
+  artifactKey: Guid(978e4d7d17b64c3478d6ef12cd01d074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_MedicalBox_02.prefab using Guid(978e4d7d17b64c3478d6ef12cd01d074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced66259c46420fe4aba83293b7f9f1f') in 0.014435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Pills_01.prefab
+  artifactKey: Guid(4d15575640fe4f5418dadd48ec243692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Pills_01.prefab using Guid(4d15575640fe4f5418dadd48ec243692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1c1a6b0d1dd02fad6b7c5995e17b68') in 0.036743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_MissileStack_01.prefab
+  artifactKey: Guid(9c4cb834410d1b94391e4eaaac010b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_MissileStack_01.prefab using Guid(9c4cb834410d1b94391e4eaaac010b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77834889b008c742f8939fbc13744e7') in 0.027904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Needle_01.prefab
+  artifactKey: Guid(66492b883d220914c9d0787b8d82abdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Needle_01.prefab using Guid(66492b883d220914c9d0787b8d82abdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef406333b75218f53e5c408042a2122') in 0.024848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Pallet_Loaded_01.prefab
+  artifactKey: Guid(6cd6d1322f283a249b96a6e64e6b4ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Pallet_Loaded_01.prefab using Guid(6cd6d1322f283a249b96a6e64e6b4ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755abfbf37ad85fbd871fa24478ac72c') in 0.022993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Pallet_01.prefab
+  artifactKey: Guid(1aef08dc7f4ce5d4c8a049851008dd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Pallet_01.prefab using Guid(1aef08dc7f4ce5d4c8a049851008dd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4449d041486f27e79d840e22226757ba') in 0.023813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Parachute_01.prefab
+  artifactKey: Guid(a567fd209adc22643bffbc9030f3005a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Parachute_01.prefab using Guid(a567fd209adc22643bffbc9030f3005a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6160a546041cbc2e56085aecfb0d07ae') in 0.024951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_PalletStack_01.prefab
+  artifactKey: Guid(08e7fa694cf2f0a42abac3bb71f497e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_PalletStack_01.prefab using Guid(08e7fa694cf2f0a42abac3bb71f497e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85687e20f13fd2014bfd36acaecef1fa') in 0.025924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Padlock_02.prefab
+  artifactKey: Guid(4d06168af4bc0594081849f47031d71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Padlock_02.prefab using Guid(4d06168af4bc0594081849f47031d71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d7cc358c80ef9444e8bff875ec6548') in 0.024911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Padlock_01.prefab
+  artifactKey: Guid(8167120906d87dd47939b9418ebb8138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Padlock_01.prefab using Guid(8167120906d87dd47939b9418ebb8138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6773a1751790ebb95ec212b4f22d22d') in 0.024332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Pallet_Loaded_02.prefab
+  artifactKey: Guid(2c361a78502f5ac468f101b1c1ebb46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Pallet_Loaded_02.prefab using Guid(2c361a78502f5ac468f101b1c1ebb46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dcccead74335009146db9358f21eb06') in 0.025632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.215970 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Pills_02.prefab
+  artifactKey: Guid(e0c816b265c9e2149ad4462fc3c8ab86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Pills_02.prefab using Guid(e0c816b265c9e2149ad4462fc3c8ab86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b91cfac481b6a668e9887830918a8c5') in 0.016992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Range_Wall_02.prefab
+  artifactKey: Guid(77b7b20618235b84ca9ffdd36184b6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Range_Wall_02.prefab using Guid(77b7b20618235b84ca9ffdd36184b6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b733b00f8e11aa6765d221944fea84f') in 0.025914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Range_Wall_01.prefab
+  artifactKey: Guid(8c1c8144052b2094fb8fc5150fe867f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Range_Wall_01.prefab using Guid(8c1c8144052b2094fb8fc5150fe867f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b08398b5e6ab71815ed367cc5b8f1d5') in 0.024965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Portaloo_01.prefab
+  artifactKey: Guid(cc6216d4d0bed944cb7a80cd071376b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Portaloo_01.prefab using Guid(cc6216d4d0bed944cb7a80cd071376b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6a152504884edf7c54cbf8f0a76ba7') in 0.020911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Range_Trable_01.prefab
+  artifactKey: Guid(141c8a1608a9b72429c131cc6cef7d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Range_Trable_01.prefab using Guid(141c8a1608a9b72429c131cc6cef7d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388319982e65f50fb119e12e8a60c955') in 0.025714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Range_Wall_Door_01.prefab
+  artifactKey: Guid(fc25b617fbcf5d54896247a2e6a0ad10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Range_Wall_Door_01.prefab using Guid(fc25b617fbcf5d54896247a2e6a0ad10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f66d964124bd3984ac0c8871d4304e') in 0.025614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Range_Wall_Half_01.prefab
+  artifactKey: Guid(49a6dbfeee02cae49bead22c1e9aae93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Range_Wall_Half_01.prefab using Guid(49a6dbfeee02cae49bead22c1e9aae93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f68699eb43e21e74d78e2c6abb839f9') in 0.025907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Propane_01.prefab
+  artifactKey: Guid(7743057cd2e40b34e9a050f84fd6fad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Propane_01.prefab using Guid(7743057cd2e40b34e9a050f84fd6fad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862171cd56eca569f3349675b82840b9') in 0.023066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Range_Wall_03.prefab
+  artifactKey: Guid(b5ffd0ec75844184490ba4618cc6361c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Range_Wall_03.prefab using Guid(b5ffd0ec75844184490ba4618cc6361c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5c0c6f21c2e50d861a511902d1129e') in 0.022950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Propane_Tall_01.prefab
+  artifactKey: Guid(6554507a8851b2e42a6974a5d95e60f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Propane_Tall_01.prefab using Guid(6554507a8851b2e42a6974a5d95e60f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05db40d9892a606a3bd8d303883b8ca4') in 0.027522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_RadioTower_01.prefab
+  artifactKey: Guid(e2810a4d021d63241a8ef1b151a7bb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_RadioTower_01.prefab using Guid(e2810a4d021d63241a8ef1b151a7bb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59fb2fc158a26c781069e7fe23a0888') in 0.024014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.346435 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Range_Wall_Post_01.prefab
+  artifactKey: Guid(d3b797db39183a443a1d330dde2c9c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Range_Wall_Post_01.prefab using Guid(d3b797db39183a443a1d330dde2c9c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254bf584b2b0971ae36b5cd2922ecac6') in 0.015187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Rubbish_Paper_03.prefab
+  artifactKey: Guid(833e9374b882f7643a398c51be276558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Rubbish_Paper_03.prefab using Guid(833e9374b882f7643a398c51be276558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1830b7e4744ce97f5e076f26af0c59cf') in 0.019836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Rubbish_Bottle_01.prefab
+  artifactKey: Guid(f02284cc2a3b3134282bef15ff01d792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Rubbish_Bottle_01.prefab using Guid(f02284cc2a3b3134282bef15ff01d792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c768d6b27ff78800e37e0c37d0253002') in 0.024867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Rubbish_Can_02.prefab
+  artifactKey: Guid(f5f7d2ae14cba984c9a462953089368a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Rubbish_Can_02.prefab using Guid(f5f7d2ae14cba984c9a462953089368a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7efc4f2d9ae1eebc47a9ff358d4bf57') in 0.020659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Rubbish_Papers_03.prefab
+  artifactKey: Guid(acbda931b33df3f40bcf618e83280806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Rubbish_Papers_03.prefab using Guid(acbda931b33df3f40bcf618e83280806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e76c9aaee61d555cdbcb335e94436c') in 0.023528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Rubbish_Paper_02.prefab
+  artifactKey: Guid(fe1e8e79a71ed684d9d38ce0d6f33d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Rubbish_Paper_02.prefab using Guid(fe1e8e79a71ed684d9d38ce0d6f33d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e330c6481e5340e2b8fc8635acc56f') in 0.023966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Range_Wall_Window_01.prefab
+  artifactKey: Guid(f5b111fc272684f4084f333a7899a4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Range_Wall_Window_01.prefab using Guid(f5b111fc272684f4084f333a7899a4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecca94744e9bb718a242a563ddaac74a') in 0.024945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Rubbish_Paper_01.prefab
+  artifactKey: Guid(fcd2af9145fe1bc4393996625be1492a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Rubbish_Paper_01.prefab using Guid(fcd2af9145fe1bc4393996625be1492a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbad19e14f3b668b41fb6eac499fdc5') in 0.023397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Rubbish_Can_01.prefab
+  artifactKey: Guid(e4a77f1d394ccbb4fb900525f393ebbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Rubbish_Can_01.prefab using Guid(e4a77f1d394ccbb4fb900525f393ebbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9a49ca3d259c4f4077128729b38c99') in 0.027979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Rubbish_Papers_02.prefab
+  artifactKey: Guid(5c9b49501b2ade64f852a05d4976fede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Rubbish_Papers_02.prefab using Guid(5c9b49501b2ade64f852a05d4976fede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2b9d50d5654274bb16559736512007') in 0.020067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Rubbish_Papers_01.prefab
+  artifactKey: Guid(a7053d9157aad3046874e98d692fd602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Rubbish_Papers_01.prefab using Guid(a7053d9157aad3046874e98d692fd602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5045ced2df24f6ce3bb379470afca0bb') in 0.023541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.083816 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Slatbox_01.prefab
+  artifactKey: Guid(bef15c0bd4d6b734b834563b1eb2c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Slatbox_01.prefab using Guid(bef15c0bd4d6b734b834563b1eb2c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329de97b2e844612923bcc411721e4c7') in 0.017733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_WeaponCase_01.prefab
+  artifactKey: Guid(bdc7086548c698e4bb132c6fa1c872d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_WeaponCase_01.prefab using Guid(bdc7086548c698e4bb132c6fa1c872d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b45541b85148a28930069c392dd1e4') in 0.024248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_WireFence_02.prefab
+  artifactKey: Guid(39724fe3f0f5fd84aa0676538e10c18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_WireFence_02.prefab using Guid(39724fe3f0f5fd84aa0676538e10c18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5331ba3eb278ad173fb73443d51a1b7d') in 0.023445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Tire_01.prefab
+  artifactKey: Guid(d5572c310af2071488c58676abcffd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Tire_01.prefab using Guid(d5572c310af2071488c58676abcffd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecff100f60de4bc2e56182d3b8e13584') in 0.023334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_WireFence_01.prefab
+  artifactKey: Guid(0d64cf1bb9d6db5458fc4331eed07b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_WireFence_01.prefab using Guid(0d64cf1bb9d6db5458fc4331eed07b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681b51c0a2a4304b77b2f98c5e4a45e7') in 0.021833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Transformer_01.prefab
+  artifactKey: Guid(7e27451a67fd1ca4f96dba5d0e017c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Transformer_01.prefab using Guid(7e27451a67fd1ca4f96dba5d0e017c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af877081c5b9d9ff7ab0df8e44c452af') in 0.021534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_TankTrap_01.prefab
+  artifactKey: Guid(c88bebc9f42262a4595175158008899e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_TankTrap_01.prefab using Guid(c88bebc9f42262a4595175158008899e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e944c23e3cffd245110c18facc741781') in 0.024301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Spotlight_01.prefab
+  artifactKey: Guid(defee6a9fcf64d34293955cc64f8d9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Spotlight_01.prefab using Guid(defee6a9fcf64d34293955cc64f8d9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916577e2afe5eecba4944d90391ca2ec') in 0.025459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Wirespool_01.prefab
+  artifactKey: Guid(19ff11b6eadf1ee42a0d028442d699e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Wirespool_01.prefab using Guid(19ff11b6eadf1ee42a0d028442d699e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe1957c0b55813d594901db2f8083ae') in 0.022991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_TireStack_01.prefab
+  artifactKey: Guid(d470efb7df5223c46b0cfeb12c77f9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_TireStack_01.prefab using Guid(d470efb7df5223c46b0cfeb12c77f9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaeaeed6bbffcb644edcf71555cf0b5f') in 0.024542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Target_01.prefab
+  artifactKey: Guid(b89fe3f03a968ea40b750113555e1169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Target_01.prefab using Guid(b89fe3f03a968ea40b750113555e1169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3415383b917c702e659805ce61fb7540') in 0.028326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.081368 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Wirespool_02.prefab
+  artifactKey: Guid(67dc2cb6ddd54864b862f36b4265478f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Wirespool_02.prefab using Guid(67dc2cb6ddd54864b862f36b4265478f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4af493ccbe47019d66499b75213882') in 0.016729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_WoodPlank_01.prefab
+  artifactKey: Guid(9cbc4baaec1a2af49b7cc0aefc7a9df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Props/SM_Prop_WoodPlank_01.prefab using Guid(9cbc4baaec1a2af49b7cc0aefc7a9df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6631f709878824e6c50de70719f99499') in 0.025123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.091044 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Armored_Car_01.prefab
+  artifactKey: Guid(a573adead8251f34a9e4b43dde088f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Armored_Car_01.prefab using Guid(a573adead8251f34a9e4b43dde088f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0d398c6e3024be90956bde8e1141bd') in 0.015373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Tank_Russia_Destroyed_01.prefab
+  artifactKey: Guid(39d3f166cb803694ebbcc0a2099c833e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Tank_Russia_Destroyed_01.prefab using Guid(39d3f166cb803694ebbcc0a2099c833e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e86b3f26093ee2fb5bd3bddfb70013') in 0.025814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Bike_Destroyed_01.prefab
+  artifactKey: Guid(7bfa86fa1024c504485a03662eafe1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Bike_Destroyed_01.prefab using Guid(7bfa86fa1024c504485a03662eafe1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7b151a690753afbc07af957834a131') in 0.024854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Truck_01.prefab
+  artifactKey: Guid(f5a0476d9eb4a484a9a808e3730c5889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Truck_01.prefab using Guid(f5a0476d9eb4a484a9a808e3730c5889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a29916df5d60a1b637d7891811d969') in 0.027559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Bike_01.prefab
+  artifactKey: Guid(f80118c48fd56b44eb7776ff08001ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Bike_01.prefab using Guid(f80118c48fd56b44eb7776ff08001ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0fa0f7c97d2abd3146e40352bc3a361') in 0.027348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Plane_Destroyed_01.prefab
+  artifactKey: Guid(079dc7324bc7318429080ce63b769236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Plane_Destroyed_01.prefab using Guid(079dc7324bc7318429080ce63b769236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670342346b725a03a3e7fa992ad436ea') in 0.026283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Buggy_Destroyed_01.prefab
+  artifactKey: Guid(1cef8c6dc686a9342896c1e222d176fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Buggy_Destroyed_01.prefab using Guid(1cef8c6dc686a9342896c1e222d176fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd604cd76051ba648b6bc0581cb1401') in 0.023819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Armored_Car_Destroyed_01.prefab
+  artifactKey: Guid(f31cea37299dd7845b00f150250aa025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Armored_Car_Destroyed_01.prefab using Guid(f31cea37299dd7845b00f150250aa025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76308c13cb79d9be842cae51436e2064') in 0.025805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Car_Plate_01.prefab
+  artifactKey: Guid(28889fdb08e94b34da0b2bd8539be2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Car_Plate_01.prefab using Guid(28889fdb08e94b34da0b2bd8539be2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cf01791d31c232f5eadc1889cbb681') in 0.024945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Boat_Destroyed_01.prefab
+  artifactKey: Guid(c3daead285a35804290bc764e2bb541c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Boat_Destroyed_01.prefab using Guid(c3daead285a35804290bc764e2bb541c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fecdd22b6aeba9a78653dfca3a8915') in 0.019984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Truck_Destroyed_01.prefab
+  artifactKey: Guid(624418e581277da4297e7676c2157070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Truck_Destroyed_01.prefab using Guid(624418e581277da4297e7676c2157070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89ee9f2f292446f11d3b7bd2c418b34') in 0.027887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Light_Car_Destroyed_01.prefab
+  artifactKey: Guid(1722a7e7db835f84e99c793413b77078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Light_Car_Destroyed_01.prefab using Guid(1722a7e7db835f84e99c793413b77078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d932df1cdaf2d920efda109185438e') in 0.031247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Boat_01.prefab
+  artifactKey: Guid(70fd0bd89e9f9144b982ec327a051c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Boat_01.prefab using Guid(70fd0bd89e9f9144b982ec327a051c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfae19066f4c32a4c5e2a6ab199a24f') in 0.041909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Car_Destroyed_01.prefab
+  artifactKey: Guid(1f3a7fa169961a144ab0cb18f336c7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Car_Destroyed_01.prefab using Guid(1f3a7fa169961a144ab0cb18f336c7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dff9cc3c671d872aedd8f3b430c6879') in 0.027567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Tank_USA_Destroyed_01.prefab
+  artifactKey: Guid(57c43a8966d74654c86c3b11e3d5f850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Tank_USA_Destroyed_01.prefab using Guid(57c43a8966d74654c86c3b11e3d5f850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7382121faa2d7a277e1d70c0f8bbfce') in 0.028156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Car_01.prefab
+  artifactKey: Guid(78ec1f1c321f8af4188c6c7f3f4274b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Car_01.prefab using Guid(78ec1f1c321f8af4188c6c7f3f4274b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719d8549e7f38f31017ce9739685ad26') in 0.026568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Tank_USA_01.prefab
+  artifactKey: Guid(c67acd4846ba1774589d2830ac38c5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Tank_USA_01.prefab using Guid(c67acd4846ba1774589d2830ac38c5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a889da7335411d80051d442e46fa204') in 0.023853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Plane_01.prefab
+  artifactKey: Guid(acaaf9ebbaefe2744b8efca7ac70d859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Plane_01.prefab using Guid(acaaf9ebbaefe2744b8efca7ac70d859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc98aeca0293a6fd51f44927a8746536') in 0.026950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Buggy_01.prefab
+  artifactKey: Guid(90a858f72a2fe1642a597df2b78b0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Buggy_01.prefab using Guid(90a858f72a2fe1642a597df2b78b0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5263791a2fb2486f2cfffb694c006a1a') in 0.025415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Car_Clean_01.prefab
+  artifactKey: Guid(2c4daa6156d4958468b11564deb735b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Car_Clean_01.prefab using Guid(2c4daa6156d4958468b11564deb735b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87252d5546a296eba5c46d0396b424ad') in 0.027684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Tank_Russia_01.prefab
+  artifactKey: Guid(340fbf1d2d9adbc4684f5f9a1e33c5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Tank_Russia_01.prefab using Guid(340fbf1d2d9adbc4684f5f9a1e33c5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77eef42664eacf50f47e4ce3db1b2cc') in 0.025396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000926 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Light_Armored_Car_01.prefab
+  artifactKey: Guid(a34a62e7c9591364f94846960ee3736d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Light_Armored_Car_01.prefab using Guid(a34a62e7c9591364f94846960ee3736d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150e3444216a3c4450f60b672ed5bfec') in 0.023092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.177386 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Attachment_Grip_01.prefab
+  artifactKey: Guid(418c1419af0ca2f4aa97e941cad192a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Attachment_Grip_01.prefab using Guid(418c1419af0ca2f4aa97e941cad192a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803e212b34c7e8cd76ad65595e8b2cf1') in 0.014691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_Launcher_01.prefab
+  artifactKey: Guid(b2db02f91acb81c499a6fe0235afc719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_Launcher_01.prefab using Guid(b2db02f91acb81c499a6fe0235afc719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb1e67a4c0dd08a77095b61d57b495e') in 0.018317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Bullet_01.prefab
+  artifactKey: Guid(9643aebe3b164bc4cae610a164fe007a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Bullet_01.prefab using Guid(9643aebe3b164bc4cae610a164fe007a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6728866d3322b3d1b7d5976dc4929de2') in 0.015118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_03.prefab
+  artifactKey: Guid(6745051c9fe818d489695642115ceb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_03.prefab using Guid(6745051c9fe818d489695642115ceb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b1594aa24fa5f3b4ceb36e1597f2f3') in 0.017458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_Ammo_01.prefab
+  artifactKey: Guid(fe347a2e8265ecb429049be8492d4ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_Ammo_01.prefab using Guid(fe347a2e8265ecb429049be8492d4ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89365bb02285c650b90fd27892181a7') in 0.018373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_02.prefab
+  artifactKey: Guid(f68f19ab55ee89d4bb00eaa083ab7849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_02.prefab using Guid(f68f19ab55ee89d4bb00eaa083ab7849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06879c5b03d2749bdf05975bc1b118c7') in 0.022778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_Ammo_Pile_01.prefab
+  artifactKey: Guid(b9f9a02dbcc1eec40b1c36b103ecd139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_Ammo_Pile_01.prefab using Guid(b9f9a02dbcc1eec40b1c36b103ecd139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e530dcc42d248125716cbed3530f09b') in 0.020379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_MachineGun_01.prefab
+  artifactKey: Guid(e93050ee6a1feb949b8fdc9a97d295b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_MachineGun_01.prefab using Guid(e93050ee6a1feb949b8fdc9a97d295b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a241599afa00380e9a924b870323d6af') in 0.023272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_RiotShield_01.prefab
+  artifactKey: Guid(6d681d8c0b8ff204ea958a229a248b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_RiotShield_01.prefab using Guid(6d681d8c0b8ff204ea958a229a248b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5acd5b567b1e1d408aa3c0e44f946f') in 0.024879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Machete_01.prefab
+  artifactKey: Guid(9023a47e211f9384aa25b0a32a008f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Machete_01.prefab using Guid(9023a47e211f9384aa25b0a32a008f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5ba7da7f473e1803401efac580ec9e') in 0.027036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Bullet_Ammo_01.prefab
+  artifactKey: Guid(4700ce61fd21e32439977dd4e8211f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Bullet_Ammo_01.prefab using Guid(4700ce61fd21e32439977dd4e8211f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2799b4d2667a50ba4d2cc4fa8c4e504f') in 0.016921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_04.prefab
+  artifactKey: Guid(58ac91c2327b1cb4992fcea350e226c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_04.prefab using Guid(58ac91c2327b1cb4992fcea350e226c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c59351f414e3bdbdf6fb97526a4a73') in 0.022914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crowbar_01.prefab
+  artifactKey: Guid(e836a075ea7fb4948a5ac07f447e206d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crowbar_01.prefab using Guid(e836a075ea7fb4948a5ac07f447e206d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319bd8a6683eee6b40667806ec909fbd') in 0.023222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Ammo_Pile_01.prefab
+  artifactKey: Guid(f2b73a5ff7f548340ba0a4ffd857859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Ammo_Pile_01.prefab using Guid(f2b73a5ff7f548340ba0a4ffd857859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f6552609bbdda431a831ba2ae19e7f') in 0.021113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pickaxe_01.prefab
+  artifactKey: Guid(7da2ab92a3d002547933b538f4ef3d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pickaxe_01.prefab using Guid(7da2ab92a3d002547933b538f4ef3d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2c684b981744118eef3aedecdf6e46') in 0.026726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Revolver_01.prefab
+  artifactKey: Guid(6993fd0e7237f024e80f00288eb435cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Revolver_01.prefab using Guid(6993fd0e7237f024e80f00288eb435cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c655ee15f2da45f92e8f5c6f0aba378e') in 0.024516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pan_01.prefab
+  artifactKey: Guid(3e423096e91b7cb4880f4621cd70d11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pan_01.prefab using Guid(3e423096e91b7cb4880f4621cd70d11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9548057962125f78032c6f13790c3b') in 0.023703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Bullet_Ammo_Pile_01.prefab
+  artifactKey: Guid(115ce5ae47080404fa1d5d8549a2a2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Bullet_Ammo_Pile_01.prefab using Guid(115ce5ae47080404fa1d5d8549a2a2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6988a18a7730775af5e9c4353ecabfab') in 0.022122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_03.prefab
+  artifactKey: Guid(586bb7eb152304c49b7fc8d4f71bec36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_03.prefab using Guid(586bb7eb152304c49b7fc8d4f71bec36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f25fa8e3992ae62621d3ddefbe64355') in 0.026998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Heavy_01.prefab
+  artifactKey: Guid(68317e2c4c57a6e45be7063240f91cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Heavy_01.prefab using Guid(68317e2c4c57a6e45be7063240f91cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d3778d227c35ddc5c282813a0887b4') in 0.025218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Bullet_Ammo_02.prefab
+  artifactKey: Guid(ff7d6dbf412c3944d8d4ca0ae3fe1fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Bullet_Ammo_02.prefab using Guid(ff7d6dbf412c3944d8d4ca0ae3fe1fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed998156007c9124b8617f7cd9a6afd') in 0.020255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Bullet_Ammo_Box_02.prefab
+  artifactKey: Guid(18ec3f4f140dca44cad65132c8fcc35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Bullet_Ammo_Box_02.prefab using Guid(18ec3f4f140dca44cad65132c8fcc35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f65ec0a1c4275e0ddf1f498bd5406d9') in 0.028946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_01.prefab
+  artifactKey: Guid(b0ebd2945a651384c9cf9aecd052b718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_01.prefab using Guid(b0ebd2945a651384c9cf9aecd052b718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef48234ae45f749203b494519ff3763') in 0.028480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_Sniper_01.prefab
+  artifactKey: Guid(53b9d63d478bf404aa635a330f18efdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_Sniper_01.prefab using Guid(53b9d63d478bf404aa635a330f18efdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5605500391a1b9137b5d37bf0c7acfe') in 0.035875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Ammo_01.prefab
+  artifactKey: Guid(9316af0d181af92458371185644b6a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Ammo_01.prefab using Guid(9316af0d181af92458371185644b6a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1c2ebc1ea9d6e10d5fa217bb018325') in 0.025393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Flare_01.prefab
+  artifactKey: Guid(246e2fda4167a7f4a9f9417c6bc5193f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Flare_01.prefab using Guid(246e2fda4167a7f4a9f9417c6bc5193f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97b9c38b2e4e99b6118d0fdc75a9607') in 0.029046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Ammo_Box_01.prefab
+  artifactKey: Guid(d2030e1dd6e306449a4df92ccbf93938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Ammo_Box_01.prefab using Guid(d2030e1dd6e306449a4df92ccbf93938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c859bb6dc23d44adc0a9404719fd7ca') in 0.030574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Attachment_Redot_01.prefab
+  artifactKey: Guid(27560bc343f61b84485ebb6b75567dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Attachment_Redot_01.prefab using Guid(27560bc343f61b84485ebb6b75567dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78ad23b83682eb3c7953893c57ca9a1') in 0.043702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_02.prefab
+  artifactKey: Guid(65220ff33a543ac45bc528238f48a1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_02.prefab using Guid(65220ff33a543ac45bc528238f48a1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed56401a2ad0ed92c1f9206f5c856e3f') in 0.030521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Revolver_Snub_01.prefab
+  artifactKey: Guid(ee2cb268404949a4fbaadcf58acb29c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Revolver_Snub_01.prefab using Guid(ee2cb268404949a4fbaadcf58acb29c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157b79bef870f87381154cb57d712b56') in 0.035527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_05.prefab
+  artifactKey: Guid(0c31ffc58b2b37440831206ec29610b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_05.prefab using Guid(0c31ffc58b2b37440831206ec29610b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c174ff8b4f2533263a03a720d0019b1') in 0.032337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_01.prefab
+  artifactKey: Guid(be20da268d490c44c8460e91a7cd3a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_01.prefab using Guid(be20da268d490c44c8460e91a7cd3a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29421dbb285ef0e7f2e67556d59e018a') in 0.029243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_Ammo_Box_01.prefab
+  artifactKey: Guid(617ad14b82f4de54e8b80e9a3288990f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_Ammo_Box_01.prefab using Guid(617ad14b82f4de54e8b80e9a3288990f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaebcff8445362f256e47e7b45c7cad3') in 0.028771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_04.prefab
+  artifactKey: Guid(dc24a25ae7542b44ba62b25047680a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_04.prefab using Guid(dc24a25ae7542b44ba62b25047680a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae6dd237716089f77077d9743719d6f') in 0.029471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Flare_Ammo_01.prefab
+  artifactKey: Guid(afe8052099cab224886ec5c44670dece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Flare_Ammo_01.prefab using Guid(afe8052099cab224886ec5c44670dece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f715f5eeafee076927f5c8229873785') in 0.030610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_RPG_01.prefab
+  artifactKey: Guid(118c44d3f9a3bcf49a971bc47fc1a5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_RPG_01.prefab using Guid(118c44d3f9a3bcf49a971bc47fc1a5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3483c985f17103f2caa4827d91a0f3da') in 0.021961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_Smoke_01.prefab
+  artifactKey: Guid(9542e0a3f73ed4c4caa252dddf2fcdc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_Smoke_01.prefab using Guid(9542e0a3f73ed4c4caa252dddf2fcdc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4408e47d97f907488c6c3a13b654d96f') in 0.039388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Bat_01.prefab
+  artifactKey: Guid(27af943660497544a943e5dc2595eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Bat_01.prefab using Guid(27af943660497544a943e5dc2595eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de6c0c89f31e75969af59bfcafb8635') in 0.035442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Shotgun_01.prefab
+  artifactKey: Guid(9ec98e8c57546a746a43196444d9c97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Shotgun_01.prefab using Guid(9ec98e8c57546a746a43196444d9c97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2f172606eb05c9267c8b3d78fd19fc') in 0.036568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Bullet_Ammo_Box_01.prefab
+  artifactKey: Guid(d7ceda7b4977dfd49b6b551566265733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Bullet_Ammo_Box_01.prefab using Guid(d7ceda7b4977dfd49b6b551566265733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccad55dce5a3e9613174396178c67688') in 0.036329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_05.prefab
+  artifactKey: Guid(04e8ca980b4beed48979d827d8250fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_05.prefab using Guid(04e8ca980b4beed48979d827d8250fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e25b6f9946431f7ae367ec823216a9b') in 0.047650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Fireaxe_01.prefab
+  artifactKey: Guid(c59e08db54612244384ff025bbac7d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Fireaxe_01.prefab using Guid(c59e08db54612244384ff025bbac7d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8206bd8e67b9fc260e4611419d6eb70') in 0.029239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Attachment_Silencer_01.prefab
+  artifactKey: Guid(0f491f9de5dd9b04d84663b053e837cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Attachment_Silencer_01.prefab using Guid(0f491f9de5dd9b04d84663b053e837cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfdd911de42d2edbcdedbfef51026d8') in 0.018033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_01.prefab
+  artifactKey: Guid(1ddc1d0c706325d4ab53c03f00f0520d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_01.prefab using Guid(1ddc1d0c706325d4ab53c03f00f0520d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd2bf2e0cb3c67e994138c3e00f76dc') in 0.018957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_RPG_Rocket_Active_01.prefab
+  artifactKey: Guid(109d2cf8b02cb1b498b03bb4b6ee117d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_RPG_Rocket_Active_01.prefab using Guid(109d2cf8b02cb1b498b03bb4b6ee117d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc53127ea206a92998fe5e669499c87') in 0.018828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.181934 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Shotgun_Ammo_01.prefab
+  artifactKey: Guid(96631445180422140bb3de3e846561d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Shotgun_Ammo_01.prefab using Guid(96631445180422140bb3de3e846561d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997259bbef24f636df95d2ac15ab5ab2') in 0.012733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Shotgun_Ammo_Pile_01.prefab
+  artifactKey: Guid(57c68e4d186be6243a5310e827beb11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Shotgun_Ammo_Pile_01.prefab using Guid(57c68e4d186be6243a5310e827beb11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd2bb73a78087e78c78a964e4894c8a') in 0.027940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Sniper_Heavy_01.prefab
+  artifactKey: Guid(0605ab4140367474f95034dcf2790b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Sniper_Heavy_01.prefab using Guid(0605ab4140367474f95034dcf2790b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e984a707da725dce4f477386f0fe02') in 0.024764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Sniper_Mil_01.prefab
+  artifactKey: Guid(0dadc2722297b3044b16aa695fd8ee62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Sniper_Mil_01.prefab using Guid(0dadc2722297b3044b16aa695fd8ee62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dfe452e295615899cd71e65fb868ed4') in 0.023624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Shotgun_Ammo_Box_01.prefab
+  artifactKey: Guid(9a343161ba13ade44bfd75098cc0605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Shotgun_Ammo_Box_01.prefab using Guid(9a343161ba13ade44bfd75098cc0605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0bdd802c27036e88bb9de0155ce481') in 0.028502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_SubMGun_01.prefab
+  artifactKey: Guid(6b7a5fffc38c176409283bbcc18eaa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_SubMGun_01.prefab using Guid(6b7a5fffc38c176409283bbcc18eaa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680dc555719f63dc809083f825fde2a1') in 0.017538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_SubMGun_Lite_01.prefab
+  artifactKey: Guid(e4b5e619f4a1e5844b32eec0d702d1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_SubMGun_Lite_01.prefab using Guid(e4b5e619f4a1e5844b32eec0d702d1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7ac45d3940f0d738ba898b2667b779') in 0.016523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Sniper_01.prefab
+  artifactKey: Guid(945e4faa3898cfb4d8a0ae7d2a6266ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Sniper_01.prefab using Guid(945e4faa3898cfb4d8a0ae7d2a6266ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b172bbf1f52b9f32f7ee7e2edfc5256c') in 0.030231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Sniper_Lite_01.prefab
+  artifactKey: Guid(0eea16a93a3714247bedd5ce3e43849c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Sniper_Lite_01.prefab using Guid(0eea16a93a3714247bedd5ce3e43849c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8ed9e7f775f42111d9242bcf6d3c03') in 0.015390 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
