@@ -63,9 +63,9 @@
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
     <Compile Include="Assets\Scripts\MoveLeft.cs" />
     <Compile Include="Assets\Scripts\MoveRight.cs" />
+    <Compile Include="Assets\ObstacleController.cs" />
     <Compile Include="Assets\Idle MoCap\DemoScene\idle_mocap_follow_player.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\ObstacleController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Course Library\_Source_Files\Materials\UnlitVertexColour_Alpha.shader" />
@@ -75,6 +75,7 @@
     <None Include="Assets\UrbanNightSky\Readme.txt" />
     <None Include="Assets\MoveMotionPack\SampleScene\Shaders\DiffuseReflectiveShader.shader" />
     <None Include="Assets\SimpleSky\ReadMe.txt" />
+    <None Include="Assets\PolygonBattleRoyale\Shader\DamageZone.shader" />
     <None Include="Assets\Course Library\_Source_Files\_LICENSE.txt" />
     <None Include="Assets\Idle MoCap\Idle Package Description.txt" />
     <None Include="Assets\MoveMotionPack\SampleScene\Shaders\ReflectiveDiffuseSpec.shader" />
