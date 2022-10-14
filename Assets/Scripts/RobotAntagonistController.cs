@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class RobotAntagonistController : MonoBehaviour
 {
-    private const float JumpForceValue = (float)6;
-    private const float GravityModifier = 1;
+    /*private const*/
+    public float JumpForceValue;// = (float)2;
+    /*private const*/
+    public float GravityModifier;// = 1;
     private const float LevelRightBorder = (float)134;
     private const float InitialPlayerSpeed = (float)2.25;
     private const float FloorPositionY = (float)0.25;
-    private const float JumpPreparationDistance = (float)2.028134;
+    /*private const*/
+    public float JumpPreparationDistance;// = (float)2.528134;
 
     private Rigidbody robotAntagonistRigidbody;
     private Animator robotAntagonistAnimator;
@@ -43,7 +46,7 @@ public class RobotAntagonistController : MonoBehaviour
 
         var nearestObstacle = this.FindNearestObstacle();
 
-        if (Math.Abs(this.robotAntagonistRigidbody.position.x - nearestObstacle.transform.position.x) <= JumpPreparationDistance)
+        if (this.isOnGround && nearestObstacle != null && Math.Abs(this.robotAntagonistRigidbody.position.x - nearestObstacle.transform.position.x) <= JumpPreparationDistance)
         {
             this.robotAntagonistAnimator.Play("Running_Jump");
             this.robotAntagonistRigidbody.AddForce(Vector3.up * JumpForceValue, ForceMode.Impulse);
