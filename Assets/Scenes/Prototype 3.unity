@@ -7066,9 +7066,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a4eed5b7a7e49f4fa050b246dd7ef71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  JumpForceValue: 1.36
+  JumpForceValue: 0.77
   GravityModifier: 1
-  JumpPreparationDistance: 2.6
+  JumpPreparationDistance: 2.65
   wasCollisionResolved: 1
 --- !u!1001 &486392766
 PrefabInstance:
