@@ -5,7 +5,7 @@ public class SpawnManager : MonoBehaviour
     private const float StartDelay = 1;
     private const float RepeatRate = 5;
 
-    private Vector3 spawnPositionOffset = new Vector3(10, 0, (float)-1.5);
+    private Vector3 spawnPositionOffset = new Vector3(10, 0, (float)-1.000019);
     private PlayerController playerController;
 
     //public List<GameObject> obstacles;

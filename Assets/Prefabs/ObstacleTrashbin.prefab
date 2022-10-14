@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 2123019964879142481}
   m_Layer: 0
   m_Name: ObstacleTrashbin
-  m_TagString: obstacleTrashbin
+  m_TagString: obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

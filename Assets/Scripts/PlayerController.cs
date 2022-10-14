@@ -36,6 +36,7 @@ public class PlayerController : MonoBehaviour
     {
         transform.Translate(Vector3.forward * Time.deltaTime * this.speed);
 
+        // Teleports the player to the start point if he reached the end of map.
         if (transform.position.x > LevelRightBorder)
         {
             transform.position = this.playerStartPosition;

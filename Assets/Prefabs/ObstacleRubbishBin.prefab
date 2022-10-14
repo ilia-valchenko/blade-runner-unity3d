@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 8357694016830050418}
   m_Layer: 0
   m_Name: ObstacleRubbishBin
-  m_TagString: obstacleRubbishBin
+  m_TagString: obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

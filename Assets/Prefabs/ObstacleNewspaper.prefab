@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 7410473613791589807}
   m_Layer: 0
   m_Name: ObstacleNewspaper
-  m_TagString: obstacleNewspaper
+  m_TagString: obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

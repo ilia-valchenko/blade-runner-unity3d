@@ -63,9 +63,10 @@
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
     <Compile Include="Assets\Scripts\MoveLeft.cs" />
     <Compile Include="Assets\Scripts\MoveRight.cs" />
-    <Compile Include="Assets\ObstacleController.cs" />
+    <Compile Include="Assets\Scripts\ObstacleController.cs" />
     <Compile Include="Assets\Idle MoCap\DemoScene\idle_mocap_follow_player.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\RobotAntagonistController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Course Library\_Source_Files\Materials\UnlitVertexColour_Alpha.shader" />
