@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     private const float InitialPlayerSpeed = (float)2.45;
     private const float SlowPlayerSpeed = (float)1.9;
     private const float FloorPositionY = (float)0.25;
+    private const int JumpStaminaDose = 30;
 
     private Rigidbody playerRigidbody;
     private Animator playerAnimator;
@@ -44,38 +45,17 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && this.isOnGround)
         {
-            this.speed = InitialPlayerSpeed;
-            this.playerAnimator.Play("Running_Jump");
-            this.playerRigidbody.AddForce(Vector3.up * JumpForceValue, ForceMode.Impulse);
-            this.isOnGround = false;
+            this.Jump();
         }
 
         if (Input.GetKey(KeyCode.W)) // Input.GetKeyDown(KeyCode.W)
         {
-            this.speed = SlowPlayerSpeed;
-            this.playerAnimator.Play("male_move_run_jogging_strafing_front_left");
-
-            if (this.playerRigidbody.transform.position.z < LeftBorder)
-            {
-                this.playerRigidbody.transform.position = new Vector3(
-                this.playerRigidbody.transform.position.x,
-                this.playerRigidbody.transform.position.y,
-                this.playerRigidbody.transform.position.z + LeftRightModifier);
-            }
+            this.GoUp();
         }
         
         if (Input.GetKey(KeyCode.S)) // Input.GetKeyDown(KeyCode.S)
         {
-            this.speed = SlowPlayerSpeed;
-            this.playerAnimator.Play("male_move_run_jogging_strafing_front_right");
-
-            if (this.playerRigidbody.transform.position.z > RightBorder)
-            {
-                this.playerRigidbody.transform.position = new Vector3(
-                this.playerRigidbody.transform.position.x,
-                this.playerRigidbody.transform.position.y,
-                this.playerRigidbody.transform.position.z - LeftRightModifier);
-            }
+            this.GoDown();
         }
 
         this.isOnGround = this.playerRigidbody.transform.position.y <= FloorPositionY;
@@ -135,6 +115,48 @@ public class PlayerController : MonoBehaviour
         {
             this.speed = InitialPlayerSpeed;
             this.wasCollisionResolved = true;
+        }
+    }
+
+    private void Jump()
+    {
+        if (!JumpStaminaBar.instance.CanUseStamina(JumpStaminaDose))
+        {
+            return;
+        }
+
+        this.speed = InitialPlayerSpeed;
+        this.playerAnimator.Play("Running_Jump");
+        this.playerRigidbody.AddForce(Vector3.up * JumpForceValue, ForceMode.Impulse);
+        this.isOnGround = false;
+        JumpStaminaBar.instance.UseStamina(JumpStaminaDose);
+    }
+
+    private void GoUp()
+    {
+        this.speed = SlowPlayerSpeed;
+        this.playerAnimator.Play("male_move_run_jogging_strafing_front_left");
+
+        if (this.playerRigidbody.transform.position.z < LeftBorder)
+        {
+            this.playerRigidbody.transform.position = new Vector3(
+            this.playerRigidbody.transform.position.x,
+            this.playerRigidbody.transform.position.y,
+            this.playerRigidbody.transform.position.z + LeftRightModifier);
+        }
+    }
+
+    private void GoDown()
+    {
+        this.speed = SlowPlayerSpeed;
+        this.playerAnimator.Play("male_move_run_jogging_strafing_front_right");
+
+        if (this.playerRigidbody.transform.position.z > RightBorder)
+        {
+            this.playerRigidbody.transform.position = new Vector3(
+            this.playerRigidbody.transform.position.x,
+            this.playerRigidbody.transform.position.y,
+            this.playerRigidbody.transform.position.z - LeftRightModifier);
         }
     }
 }
