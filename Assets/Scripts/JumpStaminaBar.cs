@@ -1,16 +1,19 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 public class JumpStaminaBar : MonoBehaviour
 {
-    private const int MaxJumpStaminaValue = 100;
+    private const float MaxJumpStaminaValue = 100;
+    private const float JumpStaminaRechargeCoefficient = 200;
+    private const int RegenDelayInSeconds = 4;
 
-
-    public Slider jumpStaminaBar;
+    private WaitForSeconds regenTick = new WaitForSeconds(0.1f);
+    private Coroutine regen;
 
     public static JumpStaminaBar instance;
-
-    public int currentJumpStaminaValue;
+    public Slider jumpStaminaBar;
+    public float currentJumpStaminaValue;
 
     public void Awake()
     {
@@ -41,7 +44,27 @@ public class JumpStaminaBar : MonoBehaviour
 
         this.currentJumpStaminaValue -= amount;
         this.jumpStaminaBar.value = this.currentJumpStaminaValue;
+
+        if (this.regen != null)
+        {
+            StopCoroutine(this.regen);
+        }
+
+        this.regen = StartCoroutine(RegenStamina());
     }
 
     public bool CanUseStamina(int amount) => this.currentJumpStaminaValue - amount > 0;
+
+    private IEnumerator RegenStamina()
+    {
+        yield return new WaitForSeconds(RegenDelayInSeconds);
+
+        while (this.currentJumpStaminaValue < MaxJumpStaminaValue)
+        {
+            this.currentJumpStaminaValue += MaxJumpStaminaValue / JumpStaminaRechargeCoefficient;
+            this.jumpStaminaBar.value = this.currentJumpStaminaValue;
+
+            yield return this.regenTick;
+        }
+    }
 }
