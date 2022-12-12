@@ -91,11 +91,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1482}
     - Class: 114
-      Script: {instanceID: 1632}
+      Script: {instanceID: 1498}
     - Class: 114
-      Script: {instanceID: 1650}
+      Script: {instanceID: 1634}
     - Class: 114
-      Script: {instanceID: 1696}
+      Script: {instanceID: 1652}
     - Class: 114
       Script: {instanceID: 2206}
     - Class: 114
@@ -115,11 +115,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3328}
     - Class: 114
-      Script: {instanceID: 4542}
+      Script: {instanceID: 3492}
     - Class: 114
       Script: {instanceID: 4544}
     - Class: 114
-      Script: {instanceID: 24494}
+      Script: {instanceID: 4546}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -194,7 +194,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 1632}
+      Script: {instanceID: 1634}
     - Class: 114
       Script: {instanceID: 1714}
     - Class: 114
@@ -218,11 +218,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2850}
     - Class: 114
-      Script: {instanceID: 3788}
+      Script: {instanceID: 3790}
     - Class: 114
-      Script: {instanceID: 3902}
+      Script: {instanceID: 3904}
     - Class: 114
-      Script: {instanceID: 4170}
+      Script: {instanceID: 4172}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -298,6 +298,12 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -350,12 +356,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: LayerLab.CasualGame
     className: PanelControlCasualGame
-  - hash:
-      serializedVersion: 2
-      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Slider
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -490,7 +490,7 @@ ScriptsOnlyBuild:
     className: TMP_Dropdown
   - hash:
       serializedVersion: 2
-      Hash: f935fd86453099fe2ed592bbd1f7b676
+      Hash: 3e2b258f42da81ef0efa2052a18cc9cc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: JumpStaminaBar
@@ -754,6 +754,12 @@ ScriptsOnlyBuild:
     className: EventTrigger
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExitToMainMenu
+  - hash:
+      serializedVersion: 2
       Hash: a81d4c2c1cf3ad164d277d927a193679
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -974,14 +980,8 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TMP_TextEventCheck
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ExitToMainMenu
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/GameScene.unity
-  playerPath: C:/Users/Ilya_Valchanka/Downloads/BladeRunner3D_builds/blade-runner.exe
+  playerPath: C:/Users/Ilya_Valchanka/Downloads/BladeRunner3D_builds/BladeRunnerWin64/blade-runner.exe
